@@ -1,0 +1,157 @@
+/* --- CSS VARIABLES FOR CONSISTENCY (defined here or in a global file) --- */
+:root {
+    --color-dark-blue: #0A0D1F; 
+    --color-text-white: #FFFFFF;
+    --color-button: #007bff; 
+}
+
+.heroSection {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  padding: 6rem 4rem 80px 4rem;
+  color: var(--color-text-white);
+  z-index: 1;
+  
+
+  /* Layered background images */
+  background: 
+    url('/earth.png') no-repeat center bottom, 
+    url('/sky.png') no-repeat center center;     
+     
+  background-size: contain, cover; 
+}
+
+.heroSection::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  /* background: rgba(0, 0, 0, 0.4); /* darkens background */
+  z-index: -1;
+}
+
+
+
+
+/* Navigation Bar */
+.navbar {
+    position: fixed; /* stick to top */
+    top: 0;
+    left: 0;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: transparent; 
+    z-index: 100; 
+}
+
+
+.logoContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logoCircle {
+  width: 80px;   /* control circle size */
+  height: 80px;
+  border: 2px solid var(--color-text-white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* keeps image inside circle */
+}
+
+.logoCircle img.logo {
+  width: 60%;   /* scale image inside circle */
+  height: auto;
+}
+
+.logoSlogan {
+  font-size: 0.7rem;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navLinks a {
+    color: var(--color-text-white);
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.subscribeBtnNav {
+    border: 1px solid var(--color-text-white);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+/* Hero Content */
+.heroContent {
+    max-width: 800px;
+    margin-left: 150px;
+}
+
+
+.subtitle {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.mainTitle {
+    font-size: 5.5rem;
+    line-height: 1.1;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.primaryBtn {
+    background-color: var(--color-button);
+    color: var(--color-text-white);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .mainTitle {
+        font-size: 4rem;
+    }
+    .heroContent {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navLinks {
+        gap: 15px;
+    }
+    .heroContent {
+        margin-left: 20px;
+    }
+    .mainTitle {
+        font-size: 3rem;
+    }
+}

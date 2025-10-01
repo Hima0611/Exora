@@ -1,0 +1,283 @@
+/* --- CSS VARIABLES (Ensure these match your global or header file) --- */
+:root {
+    --color-dark-blue: #0A0D1F; 
+    --color-text-white: #FFFFFF;
+    --color-accent-pink: #F3C4D6; 
+    --color-text-dark: #333333;
+    --color-button: #007bff; 
+}
+
+/* Reusable Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Reusable Text Styles */
+.sectionTitle {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.introText {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.primaryBtn {
+    /* Inherited from Header.module.css or redefined here */
+    background-color: var(--color-button);
+    color: var(--color-text-white);
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* 2. COSMIC CURIOSITY SECTION */
+.curiositySection {
+    background-color: var(--color-dark-blue);
+    padding: 80px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--color-text-white);
+}
+
+.curiositySection .sectionTitle,
+.curiositySection .introText {
+    margin-left: 50px;
+}
+
+.featureCards {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 30px;
+    padding: 50px 0;
+    justify-content: center;
+}
+
+/* Card Styling */
+.card {
+    background: linear-gradient(145deg, rgba(10,13,31,0.85), rgba(10,13,31,0.6));
+    backdrop-filter: blur(12px);
+    border-left: 5px solid var(--color-button);
+    border-radius: 15px;
+    padding: 30px 25px;
+    max-width: 280px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.6s forwards;
+}
+
+.card:nth-child(1) { animation-delay: 0.1s; }
+.card:nth-child(2) { animation-delay: 0.2s; }
+.card:nth-child(3) { animation-delay: 0.3s; }
+.card:nth-child(4) { animation-delay: 0.4s; }
+
+.card:hover {
+    transform: translateY(-10px) scale(1.03);
+    box-shadow: 0 20px 35px rgba(0, 123, 255, 0.35);
+    border-left-color: #FFD700;
+}
+
+/* Icon Animation */
+.iconPlaceholder {
+    font-size: 2.8rem;
+    color: var(--color-button);
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card:hover .iconPlaceholder {
+    transform: rotate(15deg) scale(1.2);
+    color: #FFD700;
+}
+
+/* Card Titles */
+.card h3 {
+    font-size: 1.6rem;
+    margin: 0;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.card:hover h3 {
+    color: var(--color-button);
+    transform: translateY(-3px);
+}
+
+/* 3. SCIENCE MEETS WONDER SECTION */
+.wonderSection {
+    background-color: var(--color-accent-pink);
+    padding: 80px 0;
+    color: var(--color-text-dark); 
+}
+
+.wonderSection .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textContent {
+    flex-basis: 40%;
+}
+
+.wonderSection .sectionTitle {
+    color: var(--color-text-dark);
+}
+
+.wonderSection .primaryBtn {
+    background-color: var(--color-dark-blue);
+    color: var(--color-text-white);
+}
+
+.visualCluster {
+    flex-basis: 50%;
+    position: relative;
+    height: 400px; 
+}
+
+.mainGalaxyImg {
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    border-radius: 20%;
+    /* Placeholder for galaxy image */
+    background: url('/galaxy.png') no-repeat center center/cover;
+    top: -50px;
+    left: 140px;
+    z-index: 1;
+}
+
+
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+    .featureCards {
+        flex-direction: column;
+    }
+    .wonderSection .container {
+        flex-direction: column;
+    }
+    .visualCluster {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width: 600px) {
+    .sectionTitle {
+        font-size: 2rem;
+    }
+    .curiositySection .sectionTitle,
+    .curiositySection .introText {
+        margin-left: 20px;
+    }
+    .featureCards {
+        margin-left: 20px;
+    }
+}
+
+.numberSection {
+  background: rgb(225, 213, 216); 
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.numberGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.numberCard h2 {
+  font-size: 2.5rem;
+  color: #0A0D1F; /* dark theme ka color */
+  margin-bottom: 0.5rem;
+}
+
+.numberCard p {
+  font-size: 1rem;
+  color: #555;
+}
+.animatedNumber span {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Card Description */
+.card p {
+    font-size: 1rem;
+    color: #ccc;
+    line-height: 1.5;
+}
+
+/* Learn More Button */
+.learnMoreBtn {
+    margin-top: auto;
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: #fff;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.learnMoreBtn:hover {
+    background: linear-gradient(90deg, #0056b3, #00a3cc);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 123, 255, 0.4);
+}
+
+/* Fade-in Animation */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .featureCards {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .card {
+        max-width: 90%;
+        padding: 20px;
+    }
+    .iconPlaceholder {
+        font-size: 2.5rem;
+    }
+    .card h3 {
+        font-size: 1.4rem;
+    }
+}
+
