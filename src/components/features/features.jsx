@@ -114,9 +114,10 @@ const Features = () => {
             <h2 className="sectionTitle">WHERE SCIENCE MEETS WONDER</h2>
             <p className="introText">
               We believe that the universe is a source of endless fascination. Our goal is to make complex science accessible
-              and ignite the wonder in everyone.
+              and ignite the wonder in everyone. Uncover the mysteries of space through science, stories, and discoveries that
+              will inspire curiosity and spark imagination.
             </p>
-            <button className="primaryBtn">SUBSCRIBE</button>
+            <button className="primaryBtn">Learn More</button>
           </div>
           
           <div className="visualCluster">
