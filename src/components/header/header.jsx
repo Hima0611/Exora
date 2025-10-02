@@ -3,6 +3,10 @@ import './header.css';
 import exoLogo from '../../assets/exo-logo.png'; 
 
 const Header = () => {
+  const goToBlogs = () => {
+    window.location.href = "/blog"; 
+  }
+  
   return (
     <header className="heroSection">
       <nav className="navbar">
@@ -26,8 +30,8 @@ const Header = () => {
       <div className="heroContent">
         <center>
         <h1 className="mainTitle">EXPLORING THE GREAT UNKNOWN</h1>
-        <button className="primaryBtn">READ BLOGS</button></center>
-      
+        <button className="primaryBtn" onClick={goToBlogs}>READ BLOGS</button>
+        </center>
       </div>
 
       <div className="whiteSection"></div>
