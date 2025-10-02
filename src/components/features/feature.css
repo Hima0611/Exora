@@ -63,6 +63,7 @@
 /* Card Styling */
 .card {
     background: linear-gradient(145deg, rgba(10,13,31,0.85), rgba(10,13,31,0.6));
+    -webkit-backdrop-filter: blur(12px);
     backdrop-filter: blur(12px);
     border-left: 5px solid var(--color-button);
     border-radius: 15px;

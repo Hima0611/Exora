@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import { apiService } from '../../services/api';
 
 import './feature.css';
 
@@ -33,12 +34,42 @@ import './feature.css';
 
 const Features = () => {
   const navigate = useNavigate();
+  const [stats, setStats] = useState({
+    confirmedExoplanets: 6013,
+    hostStars: 10,
+    discoveryMethods: 11
+  });
+  const [loading, setLoading] = useState(true);
 
-  const handleExploreStars = () => {navigate("/starmap");
-  const handleViewTrends = () => navigate("/trends");
-  const handleViewOrbits = () => navigate("/orbits");
-  const handleExplorePlanets = () => navigate("/planets");
-  };
+  // Fetch real data from backend
+  useEffect(() => {
+    const fetchStats = async () => {
+      try {
+        const [discoveryStats, discoveryMethods] = await Promise.all([
+          apiService.getDiscoveryStats(),
+          apiService.getDiscoveryMethods()
+        ]);
+        
+        setStats({
+          confirmedExoplanets: discoveryStats.total_exoplanets || 6013,
+          hostStars: discoveryStats.total_host_stars || 10,
+          discoveryMethods: discoveryMethods.length || 11
+        });
+      } catch (error) {
+        console.error('Error fetching stats:', error);
+        // Keep default values if API fails
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchStats();
+  }, []);
+
+  const handleExploreStars = () => window.location.href = "http://localhost:5000/starmap";
+  const handleViewTrends = () => window.location.href = "http://localhost:5000/discovery-trends";
+  const handleViewOrbits = () => window.location.href = "http://localhost:5000/orbital-viewer";
+  const handleExplorePlanets = () => window.location.href = "http://localhost:5000/planet-explorer";
 
   return (
     
@@ -47,18 +78,17 @@ const Features = () => {
       <section className="numberSection">
         <div className="container numberGrid">
           <div className="numberCard">
-            <AnimatedNumber number={6013} delay={200} />
+            <AnimatedNumber number={stats.confirmedExoplanets} delay={200} />
             <b><p>Confirmed Exoplanets</p></b>
           </div>
           <div className="numberCard">
-            <AnimatedNumber number={10} delay={200} />
+            <AnimatedNumber number={stats.hostStars} delay={200} />
             <b><p>Host Stars</p></b>
           </div>
           <div className="numberCard">
-            <AnimatedNumber number={11} delay={400} />
+            <AnimatedNumber number={stats.discoveryMethods} delay={400} />
             <b><p>Discovery Methods</p></b>
           </div>
-          
         </div>
       </section>
       
@@ -86,21 +116,21 @@ const Features = () => {
         <div className="iconPlaceholder">🪐</div>
         <h3>Discovery Trends</h3>
         <p>Analyze trends in exoplanet discoveries over time.</p>
-        <button className="learnMoreBtn" >View Trends</button>
+        <button className="learnMoreBtn" onClick={handleViewTrends}>View Trends</button>
       </div>
 
       <div className="card">
         <div className="iconPlaceholder">🌍</div>
         <h3>3D Orbital Viewer</h3>
         <p>Visualize planetary orbits with stunning 3D animations.</p>
-        <button className="learnMoreBtn" >View Orbits</button>
+        <button className="learnMoreBtn" onClick={handleViewOrbits}>View Orbits</button>
       </div>
 
       <div className="card">
         <div className="iconPlaceholder">🔭</div>
         <h3>Planet Explorer</h3>
         <p>Navigate through a rich database of exoplanets and their characteristics.</p>
-        <button className="learnMoreBtn" >Explore Planets</button>
+        <button className="learnMoreBtn" onClick={handleExplorePlanets}>Explore Planets</button>
       </div>
     </div>
   </div>
