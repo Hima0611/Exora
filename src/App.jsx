@@ -20,29 +20,9 @@ function App() {
         }
       />
       
-      {/* Blog Section - Shows all blogs */}
-      <Route
-        path="/blog"
-        element={
-          <>
-            <Header />
-            <BlogSection />
-            <Footer />
-          </>
-        }
-      />
       
-      {/* Single Blog Post - Shows individual blog */}
-      <Route
-        path="/blog/:id"
-        element={
-          <>
-            <Header />
-            <SingleBlog />
-            <Footer />
-          </>
-        }
-      />
+      <Route path="/blog" element={<BlogSection />} />
+      <Route path="/blog/:id" element={<SingleBlog />} />
     </Routes>
   );
 }
