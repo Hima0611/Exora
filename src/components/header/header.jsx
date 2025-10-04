@@ -13,20 +13,13 @@ const Header = () => {
   return (
     <header className="heroSection">
       <nav className="navbar">
-
-        <div className="logoContainer">
-          <div className="logoCircle">
-            <img src={exoLogo} alt="Logo" className="logo" />
-          </div>
-          <div className="logoSlogan"> Exora - EXPLORING PATHWAYS BEYOND</div>
-        </div>
         <ul className="navLinks">
           <li><a href="/">Home</a></li>
           <li><a href="http://localhost:5000/starmap">Star Map</a></li>
           <li><a href="http://localhost:5000/discovery-trends">Discovery Trends</a></li>
           <li><a href="http://localhost:5000/orbital-viewer">Orbital Viewer</a></li>
           <li><a href="http://localhost:5000/planet-explorer">Planet Explorer</a></li>
-          <li><a className="subscribeBtnNav" href="#subscribe">Subscribe</a></li>
+          <li><a href="http://localhost:5000/predict">AI Predict</a></li>
         </ul>
       </nav>
 

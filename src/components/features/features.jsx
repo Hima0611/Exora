@@ -70,6 +70,7 @@ const Features = () => {
   const handleViewTrends = () => window.location.href = "http://localhost:5000/discovery-trends";
   const handleViewOrbits = () => window.location.href = "http://localhost:5000/orbital-viewer";
   const handleExplorePlanets = () => window.location.href = "http://localhost:5000/planet-explorer";
+  const handleAIPredict = () => window.location.href = "http://localhost:5000/predict";
 
   return (
     
@@ -131,6 +132,13 @@ const Features = () => {
         <h3>Planet Explorer</h3>
         <p>Navigate through a rich database of exoplanets and their characteristics.</p>
         <button className="learnMoreBtn" onClick={handleExplorePlanets}>Explore Planets</button>
+      </div>
+
+      <div className="card">
+        <div className="iconPlaceholder">🔮</div>
+        <h3>AI Prediction</h3>
+        <p>Use machine learning to predict exoplanet classifications and probabilities.</p>
+        <button className="learnMoreBtn" onClick={handleAIPredict}>Predict Now</button>
       </div>
     </div>
   </div>

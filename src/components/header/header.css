@@ -41,13 +41,18 @@
     position: fixed; /* stick to top */
     top: 0;
     left: 0;
-    width: 95%;
+    right: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
-    padding: 20px 40px;
-    background: transparent; 
-    z-index: 100; 
+    padding: 20px 20px 20px 20px;
+    background: rgba(10, 13, 31, 0.1);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    z-index: 100;
+    box-sizing: border-box;
 }
 
 
@@ -83,14 +88,32 @@
 .navLinks {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 12px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.navLinks li {
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .navLinks a {
     color: var(--color-text-white);
     text-decoration: none;
-    font-size: 1.1rem;
-    transition: color 0.3s;
+    font-size: 0.8rem;
+    padding: 4px 6px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    display: block;
+}
+
+.navLinks a:hover {
+    color: var(--color-button);
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .subscribeBtnNav {
@@ -131,7 +154,56 @@
 }
 
 /* Media Queries for Responsiveness */
+@media (max-width: 1600px) {
+    .navbar {
+        padding: 20px 15px 20px 20px;
+    }
+    .navLinks {
+        gap: 10px;
+    }
+    .navLinks a {
+        font-size: 0.75rem;
+        padding: 3px 5px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .navbar {
+        padding: 20px 25px 20px 20px;
+    }
+    .navLinks {
+        gap: 14px;
+    }
+    .navLinks a {
+        font-size: 0.8rem;
+        padding: 4px 6px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar {
+        padding: 15px 20px 15px 15px;
+    }
+    .navLinks {
+        gap: 12px;
+    }
+    .navLinks a {
+        font-size: 0.75rem;
+        padding: 4px 5px;
+    }
+}
+
 @media (max-width: 1024px) {
+    .navbar {
+        padding: 15px 15px 15px 15px;
+    }
+    .navLinks {
+        gap: 10px;
+    }
+    .navLinks a {
+        font-size: 0.7rem;
+        padding: 3px 4px;
+    }
     .mainTitle {
         font-size: 4rem;
     }
