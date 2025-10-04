@@ -25,6 +25,7 @@ const Header = () => {
           <div className="logoSlogan"> Exora - EXPLORING PATHWAYS BEYOND</div>
         </div>
         <ul className="navLinks">
+          <li><a href="http://localhost:5000/predict">AI Predict</a></li>
           <li>
             <a href="/">Home</a>
           </li>

@@ -62,15 +62,12 @@ const Features = () => {
     fetchStats();
   }, []);
 
-  const handleExploreStars = () =>
-    (window.location.href = "http://localhost:5000/starmap");
-  const handleViewTrends = () =>
-    (window.location.href = "http://localhost:5000/discovery-trends");
-  const handleViewOrbits = () =>
-    (window.location.href = "http://localhost:5000/orbital-viewer");
-  const handleExplorePlanets = () =>
-    (window.location.href = "http://localhost:5000/planet-explorer");
   const handleRadialVelocity = () => navigate("/radial-velocity");
+  const handleExploreStars = () => window.location.href = "http://localhost:5000/starmap";
+  const handleViewTrends = () => window.location.href = "http://localhost:5000/discovery-trends";
+  const handleViewOrbits = () => window.location.href = "http://localhost:5000/orbital-viewer";
+  const handleExplorePlanets = () => window.location.href = "http://localhost:5000/planet-explorer";
+  const handleAIPredict = () => window.location.href = "http://localhost:5000/predict";
 
   return (
     <div className="featuresWrapper">
@@ -139,32 +136,23 @@ const Features = () => {
               </button>
             </div>
 
-            <div className="card">
-              <div className="iconPlaceholder">🔭</div>
-              <h3>Planet Explorer</h3>
-              <p>
-                Navigate through a rich database of exoplanets and their
-                characteristics.
-              </p>
-              <button className="learnMoreBtn" onClick={handleExplorePlanets}>
-                Explore Planets
-              </button>
-            </div>
+      <div className="card">
+        <div className="iconPlaceholder">🔭</div>
+        <h3>Planet Explorer</h3>
+        <p>Navigate through a rich database of exoplanets and their characteristics.</p>
+        <button className="learnMoreBtn" onClick={handleExplorePlanets}>Explore Planets</button>
+      </div>
 
-            <div className="card">
-              <div className="iconPlaceholder">🔬</div>
-              <h3>RV Analysis</h3>
-              <p>
-                Detect exoplanets using radial velocity method with AI-powered
-                analysis and predictions.
-              </p>
-              <button className="learnMoreBtn" onClick={handleRadialVelocity}>
-                Analyze Data
-              </button>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="card">
+        <div className="iconPlaceholder">🔮</div>
+        <h3>AI Prediction</h3>
+        <p>Use machine learning to predict exoplanet classifications and probabilities.</p>
+        <button className="learnMoreBtn" onClick={handleAIPredict}>Predict Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* SECTION 3: SCIENCE MEETS WONDER */}
       <section className="wonderSection">

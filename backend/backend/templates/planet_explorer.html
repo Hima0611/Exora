@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planet Explorer - A World Away</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/style.css') }}"
+    />
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  </head>
+  <body>
+    <style>
+      /* Import React app header styles */
+      :root {
+        --color-dark-blue: #0A0D1F; 
+        --color-text-white: #FFFFFF;
+        --color-button: #007bff; 
+      }
+
+      .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+        background: rgba(10, 13, 31, 0.9);
+        backdrop-filter: blur(10px);
+        z-index: 100;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      }
+
+      .logoContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .logoCircle {
+        width: 60px;
+        height: 60px;
+        border: 2px solid var(--color-text-white);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+      }
+
+      .logoSlogan {
+        font-size: 0.7rem;
+        margin-top: 5px;
+        text-align: center;
+        color: var(--color-text-white);
+      }
+
+      .navLinks {
+        list-style: none;
+        display: flex;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+      }
+
+      .navLinks a {
+        color: var(--color-text-white);
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: color 0.3s;
+        padding: 8px 16px;
+        border-radius: 8px;
+      }
+
+      .navLinks a:hover {
+        background: rgba(255, 255, 255, 0.1);
+      }
+
+      .navLinks a.active {
+        background: rgba(0, 123, 255, 0.3);
+        border: 1px solid rgba(0, 123, 255, 0.5);
+      }
+
+
+
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(135deg, #0A0D1F 0%, #1a1a2e 50%, #16213e 100%);
+        color: white;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        min-height: 100vh;
+        padding-top: 120px;
+      }
+    </style>
+
+    <nav class="navbar">
+      <div class="logoContainer">
+        <div class="logoCircle">
+          🔭
+        </div>
+        <div class="logoSlogan">Exora - Planet Explorer</div>
+      </div>
+      <ul class="navLinks">
+        <li><a href="http://localhost:5173/" class="nav-link">Home</a></li>
+        <li><a href="/starmap" class="nav-link">Star Map</a></li>
+        <li><a href="/discovery-trends" class="nav-link">Discovery Trends</a></li>
+        <li><a href="/orbital-viewer" class="nav-link">Orbital Viewer</a></li>
+        <li><a href="/planet-explorer" class="nav-link active">Planet Explorer</a></li>
+      </ul>
+    </nav>
+
+    <main class="main-content">
+      <div class="page-header">
+        <h1>🪐 Planet Explorer</h1>
+        <p>Dive deep into individual exoplanets and their characteristics</p>
+      </div>
+
+      <div class="explorer-controls">
+        <div class="search-section">
+          <input
+            type="text"
+            id="planet-search"
+            placeholder="Search for a planet..."
+            class="search-input"
+          />
+          <button id="search-btn" class="search-btn">🔍</button>
+        </div>
+        <div class="filter-section">
+          <select id="discovery-method-filter">
+            <option value="">All Discovery Methods</option>
+          </select>
+          <select id="year-filter">
+            <option value="">All Years</option>
+          </select>
+          <select id="size-filter">
+            <option value="">All Sizes</option>
+            <option value="small">Small (< 1.5 R⊕)</option>
+            <option value="medium">Medium (1.5 - 4 R⊕)</option>
+            <option value="large">Large (> 4 R⊕)</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="explorer-content">
+        <div class="planets-grid" id="planets-grid">
+          <div class="loading-message">Loading exoplanets...</div>
+        </div>
+
+        <div class="pagination-controls">
+          <button id="prev-page" class="page-btn" disabled>← Previous</button>
+          <span id="page-info">Page 1 of 1</span>
+          <button id="next-page" class="page-btn" disabled>Next →</button>
+        </div>
+      </div>
+
+      <div class="planet-modal" id="planet-modal" style="display: none">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 id="modal-planet-name">Planet Details</h2>
+            <button class="close-modal" onclick="closePlanetModal()">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="planet-details-grid">
+              <div class="detail-section">
+                <h3>🌍 Physical Properties</h3>
+                <div class="property-grid">
+                  <div class="property-item">
+                    <label>Radius:</label>
+                    <span id="detail-radius">-</span>
+                  </div>
+                  <div class="property-item">
+                    <label>Mass:</label>
+                    <span id="detail-mass">-</span>
+                  </div>
+                  <div class="property-item">
+                    <label>Density:</label>
+                    <span id="detail-density">-</span>
+                  </div>
+                  <div class="property-item">
+                    <label>Temperature:</label>
+                    <span id="detail-temperature">-</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="detail-section">
+                <h3>🌟 Orbital Properties</h3>
+                <div class="property-grid">
+                  <div class="property-item">
+                    <label>Orbital Period:</label>
+                    <span id="detail-period">-</span>
+                  </div>
+                  <div class="property-item">
+                    <label>Host Star:</label>
+                    <span id="detail-host-star">-</span>
+                  </div>
+                  <div class="property-item">
+                    <label>Distance from Earth:</label>
+                    <span id="detail-distance">-</span>
+                  </div>
+                  <div class="property-item">
+                    <label>Coordinates:</label>
+                    <span id="detail-coordinates">-</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="detail-section">
+                <h3>🔬 Discovery Information</h3>
+                <div class="property-grid">
+                  <div class="property-item">
+                    <label>Discovery Year:</label>
+                    <span id="detail-discovery-year">-</span>
+                  </div>
+                  <div class="property-item">
+                    <label>Detection Method:</label>
+                    <span id="detail-method">-</span>
+                  </div>
+                  <div class="property-item">
+                    <label>Habitability Score:</label>
+                    <span id="detail-habitability">-</span>
+                  </div>
+                  <div class="property-item">
+                    <label>Classification:</label>
+                    <span id="detail-classification">-</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="comparison-section">
+              <h3>📊 Size Comparison</h3>
+              <div id="size-comparison-chart"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      let allPlanets = [];
+      let filteredPlanets = [];
+      let currentPage = 1;
+      let planetsPerPage = 12;
+      let currentPlanet = null;
+
+      document.addEventListener("DOMContentLoaded", function () {
+        loadAllPlanets();
+        setupEventListeners();
+      });
+
+      async function loadAllPlanets() {
+        try {
+          const response = await fetch("/api/exoplanets?limit=500");
+          allPlanets = await response.json();
+          filteredPlanets = [...allPlanets];
+
+          populateFilters();
+          displayPlanets();
+        } catch (error) {
+          console.error("Error loading planets:", error);
+          document.getElementById("planets-grid").innerHTML =
+            '<div class="error-message">Error loading planets. Please try again.</div>';
+        }
+      }
+
+      function populateFilters() {
+        // Populate discovery method filter
+        const methods = [
+          ...new Set(allPlanets.map((p) => p.discovery_method).filter(Boolean)),
+        ];
+        const methodFilter = document.getElementById("discovery-method-filter");
+        methods.forEach((method) => {
+          const option = document.createElement("option");
+          option.value = method;
+          option.textContent = method;
+          methodFilter.appendChild(option);
+        });
+
+        // Populate year filter
+        const years = [
+          ...new Set(allPlanets.map((p) => p.discovery_year).filter(Boolean)),
+        ];
+        years.sort((a, b) => b - a);
+        const yearFilter = document.getElementById("year-filter");
+        years.forEach((year) => {
+          const option = document.createElement("option");
+          option.value = year;
+          option.textContent = year;
+          yearFilter.appendChild(option);
+        });
+      }
+
+      function displayPlanets() {
+        const grid = document.getElementById("planets-grid");
+        grid.innerHTML = "";
+
+        const startIndex = (currentPage - 1) * planetsPerPage;
+        const endIndex = startIndex + planetsPerPage;
+        const planetsToShow = filteredPlanets.slice(startIndex, endIndex);
+
+        if (planetsToShow.length === 0) {
+          grid.innerHTML =
+            '<div class="no-results">No planets match your criteria</div>';
+          return;
+        }
+
+        planetsToShow.forEach((planet) => {
+          const planetCard = createPlanetCard(planet);
+          grid.appendChild(planetCard);
+        });
+
+        updatePaginationControls();
+      }
+
+      function createPlanetCard(planet) {
+        const card = document.createElement("div");
+        card.className = "planet-card";
+        card.onclick = () => showPlanetDetails(planet);
+
+        // Calculate planet classification
+        const classification = classifyPlanet(planet);
+        const habitabilityScore = calculateHabitabilityScore(planet);
+
+        card.innerHTML = `
+                <div class="planet-header">
+                    <h3 class="planet-name">${planet.name || "Unknown"}</h3>
+                    <div class="planet-classification ${
+                      classification.class
+                    }">${classification.name}</div>
+                </div>
+                <div class="planet-info">
+                    <div class="info-row">
+                        <span class="info-label">Host Star:</span>
+                        <span class="info-value">${
+                          planet.host_star || "Unknown"
+                        }</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Discovery Year:</span>
+                        <span class="info-value">${
+                          planet.discovery_year || "Unknown"
+                        }</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Method:</span>
+                        <span class="info-value">${
+                          planet.discovery_method || "Unknown"
+                        }</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Radius:</span>
+                        <span class="info-value">${
+                          planet.radius
+                            ? planet.radius.toFixed(2) + " R⊕"
+                            : "Unknown"
+                        }</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">Period:</span>
+                        <span class="info-value">${
+                          planet.orbital_period
+                            ? planet.orbital_period.toFixed(1) + " days"
+                            : "Unknown"
+                        }</span>
+                    </div>
+                </div>
+                <div class="planet-footer">
+                    <div class="habitability-score">
+                        <span class="score-label">Habitability:</span>
+                        <div class="score-bar">
+                            <div class="score-fill" style="width: ${
+                              habitabilityScore * 100
+                            }%"></div>
+                        </div>
+                        <span class="score-value">${(
+                          habitabilityScore * 100
+                        ).toFixed(0)}%</span>
+                    </div>
+                </div>
+            `;
+
+        return card;
+      }
+
+      function classifyPlanet(planet) {
+        if (!planet.radius) return { name: "Unknown", class: "unknown" };
+
+        const radius = planet.radius;
+        if (radius < 1.25) return { name: "Terrestrial", class: "terrestrial" };
+        if (radius < 2.0) return { name: "Super-Earth", class: "super-earth" };
+        if (radius < 6.0) return { name: "Sub-Neptune", class: "sub-neptune" };
+        if (radius < 15.0) return { name: "Neptune-like", class: "neptune" };
+        return { name: "Jupiter-like", class: "jupiter" };
+      }
+
+      function calculateHabitabilityScore(planet) {
+        let score = 0;
+
+        // Temperature scoring (if available)
+        if (planet.equilibrium_temp) {
+          const temp = planet.equilibrium_temp;
+          if (temp >= 273 && temp <= 373) score += 0.4; // Liquid water range
+          else if (temp >= 200 && temp <= 500) score += 0.2; // Extended range
+        }
+
+        // Size scoring
+        if (planet.radius) {
+          const radius = planet.radius;
+          if (radius >= 0.5 && radius <= 2.0) score += 0.3; // Earth-like size
+          else if (radius >= 0.3 && radius <= 3.0) score += 0.15; // Extended range
+        }
+
+        // Orbital period scoring (rough proxy for distance from star)
+        if (planet.orbital_period) {
+          const period = planet.orbital_period;
+          if (period >= 200 && period <= 500)
+            score += 0.2; // Roughly habitable zone
+          else if (period >= 100 && period <= 1000) score += 0.1; // Extended range
+        }
+
+        // Discovery method bonus (some methods find more Earth-like planets)
+        if (planet.discovery_method === "Transit") score += 0.1;
+
+        return Math.min(1.0, score);
+      }
+
+      function applyFilters() {
+        const searchTerm = document
+          .getElementById("planet-search")
+          .value.toLowerCase();
+        const methodFilter = document.getElementById(
+          "discovery-method-filter"
+        ).value;
+        const yearFilter = document.getElementById("year-filter").value;
+        const sizeFilter = document.getElementById("size-filter").value;
+
+        filteredPlanets = allPlanets.filter((planet) => {
+          // Search filter
+          if (
+            searchTerm &&
+            !planet.name.toLowerCase().includes(searchTerm) &&
+            !planet.host_star.toLowerCase().includes(searchTerm)
+          ) {
+            return false;
+          }
+
+          // Method filter
+          if (methodFilter && planet.discovery_method !== methodFilter) {
+            return false;
+          }
+
+          // Year filter
+          if (yearFilter && planet.discovery_year != yearFilter) {
+            return false;
+          }
+
+          // Size filter
+          if (sizeFilter && planet.radius) {
+            const radius = planet.radius;
+            switch (sizeFilter) {
+              case "small":
+                if (radius >= 1.5) return false;
+                break;
+              case "medium":
+                if (radius < 1.5 || radius > 4) return false;
+                break;
+              case "large":
+                if (radius <= 4) return false;
+                break;
+            }
+          }
+
+          return true;
+        });
+
+        currentPage = 1;
+        displayPlanets();
+      }
+
+      function showPlanetDetails(planet) {
+        currentPlanet = planet;
+
+        // Update modal content
+        document.getElementById("modal-planet-name").textContent = planet.name;
+        document.getElementById("detail-radius").textContent = planet.radius
+          ? `${planet.radius.toFixed(3)} R⊕`
+          : "Unknown";
+        document.getElementById("detail-mass").textContent = planet.mass
+          ? `${planet.mass.toFixed(3)} M⊕`
+          : "Unknown";
+        document.getElementById("detail-temperature").textContent =
+          planet.equilibrium_temp
+            ? `${planet.equilibrium_temp.toFixed(0)} K`
+            : "Unknown";
+        document.getElementById("detail-period").textContent =
+          planet.orbital_period
+            ? `${planet.orbital_period.toFixed(2)} days`
+            : "Unknown";
+        document.getElementById("detail-host-star").textContent =
+          planet.host_star || "Unknown";
+        document.getElementById("detail-distance").textContent = planet.distance
+          ? `${planet.distance.toFixed(1)} pc`
+          : "Unknown";
+        document.getElementById("detail-discovery-year").textContent =
+          planet.discovery_year || "Unknown";
+        document.getElementById("detail-method").textContent =
+          planet.discovery_method || "Unknown";
+
+        // Calculate derived properties
+        const density =
+          planet.mass && planet.radius
+            ? (planet.mass / Math.pow(planet.radius, 3)).toFixed(2) + " ρ⊕"
+            : "Unknown";
+        document.getElementById("detail-density").textContent = density;
+
+        const coordinates =
+          planet.ra && planet.dec
+            ? `RA: ${planet.ra.toFixed(2)}°, Dec: ${planet.dec.toFixed(2)}°`
+            : "Unknown";
+        document.getElementById("detail-coordinates").textContent = coordinates;
+
+        const habitability =
+          (calculateHabitabilityScore(planet) * 100).toFixed(0) + "%";
+        document.getElementById("detail-habitability").textContent =
+          habitability;
+
+        const classification = classifyPlanet(planet);
+        document.getElementById("detail-classification").textContent =
+          classification.name;
+
+        // Create size comparison chart
+        createSizeComparisonChart(planet);
+
+        // Show modal
+        document.getElementById("planet-modal").style.display = "flex";
+      }
+
+      function createSizeComparisonChart(planet) {
+        const planets = [
+          { name: "Earth", radius: 1.0, color: "#4285f4" },
+          { name: "Jupiter", radius: 11.2, color: "#ff9800" },
+          { name: planet.name, radius: planet.radius || 1.0, color: "#00ff88" },
+        ];
+
+        const trace = {
+          x: planets.map((p) => p.name),
+          y: planets.map((p) => p.radius),
+          type: "bar",
+          marker: {
+            color: planets.map((p) => p.color),
+            line: { color: "white", width: 2 },
+          },
+          text: planets.map((p) => `${p.radius.toFixed(2)} R⊕`),
+          textposition: "outside",
+        };
+
+        const layout = {
+          title: "Size Comparison (Earth Radii)",
+          yaxis: { title: "Radius (Earth = 1)" },
+          margin: { t: 50, r: 30, b: 50, l: 60 },
+          height: 300,
+          plot_bgcolor: "rgba(0,0,0,0)",
+          paper_bgcolor: "rgba(0,0,0,0)",
+        };
+
+        Plotly.newPlot("size-comparison-chart", [trace], layout, {
+          responsive: true,
+        });
+      }
+
+      function closePlanetModal() {
+        document.getElementById("planet-modal").style.display = "none";
+      }
+
+      function updatePaginationControls() {
+        const totalPages = Math.ceil(filteredPlanets.length / planetsPerPage);
+
+        document.getElementById(
+          "page-info"
+        ).textContent = `Page ${currentPage} of ${totalPages}`;
+        document.getElementById("prev-page").disabled = currentPage <= 1;
+        document.getElementById("next-page").disabled =
+          currentPage >= totalPages;
+      }
+
+      function setupEventListeners() {
+        // Search and filter events
+        document
+          .getElementById("planet-search")
+          .addEventListener("input", applyFilters);
+        document
+          .getElementById("discovery-method-filter")
+          .addEventListener("change", applyFilters);
+        document
+          .getElementById("year-filter")
+          .addEventListener("change", applyFilters);
+        document
+          .getElementById("size-filter")
+          .addEventListener("change", applyFilters);
+
+        // Pagination events
+        document
+          .getElementById("prev-page")
+          .addEventListener("click", function () {
+            if (currentPage > 1) {
+              currentPage--;
+              displayPlanets();
+            }
+          });
+
+        document
+          .getElementById("next-page")
+          .addEventListener("click", function () {
+            const totalPages = Math.ceil(
+              filteredPlanets.length / planetsPerPage
+            );
+            if (currentPage < totalPages) {
+              currentPage++;
+              displayPlanets();
+            }
+          });
+
+        // Modal close on outside click
+        window.addEventListener("click", function (event) {
+          const modal = document.getElementById("planet-modal");
+          if (event.target === modal) {
+            closePlanetModal();
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
