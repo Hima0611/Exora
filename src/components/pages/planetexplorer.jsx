@@ -49,13 +49,6 @@ const PlanetExplorer = () => {
 
   const handlePlanetClick = async (planet) => {
     setSelectedPlanet(planet);
-    // You can fetch additional orbital data here if needed
-    // try {
-    //   const orbitalData = await apiService.getOrbitalData(planet.pl_name);
-    //   setSelectedPlanet({...planet, orbitalData});
-    // } catch (error) {
-    //   console.error('Error fetching orbital data:', error);
-    // }
   };
 
   const getPlanetSize = (radius) => {

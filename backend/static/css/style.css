@@ -1,3 +1,6 @@
+/* Import unified variables first */
+@import url("./variables.css");
+
 /* Global Styles */
 * {
   margin: 0;
@@ -6,64 +9,86 @@
 }
 
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
-  color: #ffffff;
+  font-family: var(--font-family);
+  background: var(--gradient-space);
+  color: var(--color-text-white);
   min-height: 100vh;
   line-height: 1.6;
 }
 
-/* Navigation */
+/* Navigation - Uses unified classes */
 .navbar {
-  background: rgba(15, 23, 42, 0.95);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 1rem 0;
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 1000;
-}
-
-.nav-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 2rem;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: var(--navbar-padding);
+  background: var(--navbar-bg);
+  backdrop-filter: var(--glass-blur);
+  z-index: 100;
+  border-bottom: 1px solid var(--glass-border);
 }
 
-.nav-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  color: #60a5fa;
-}
-
-.nav-menu {
+.logoContainer {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logoCircle {
+  width: var(--logo-circle-size);
+  height: var(--logo-circle-size);
+  border: var(--logo-circle-border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  font-size: 2rem;
+}
+
+.logoSlogan {
+  font-size: 0.7rem;
+  margin-top: 5px;
+  text-align: center;
+  color: var(--color-text-white);
+}
+
+.navLinks {
   list-style: none;
-  gap: 2rem;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-link {
-  color: #cbd5e1;
+  color: var(--color-text-white);
   text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  transition: all 0.3s ease;
+  font-size: var(--font-size-body);
+  transition: color 0.3s;
+  padding: 8px 16px;
+  border-radius: 8px;
 }
 
 .nav-link:hover,
 .nav-link.active {
-  background: rgba(96, 165, 250, 0.2);
-  color: #60a5fa;
+  color: var(--color-button);
+  background: var(--glass-bg-light);
 }
 
 /* Main Content */
 .main-content {
-  max-width: 1400px;
+  padding-top: calc(var(--navbar-height) + 2rem);
+  min-height: 100vh;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .page-header {

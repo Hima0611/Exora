@@ -14,9 +14,9 @@
     <style>
       /* Import React app header styles */
       :root {
-        --color-dark-blue: #0A0D1F; 
-        --color-text-white: #FFFFFF;
-        --color-button: #007bff; 
+        --color-dark-blue: #0a0d1f;
+        --color-text-white: #ffffff;
+        --color-button: #007bff;
       }
 
       .navbar {
@@ -85,14 +85,17 @@
         border: 1px solid rgba(0, 123, 255, 0.5);
       }
 
-
-
       body {
         margin: 0;
         padding: 0;
-        background: linear-gradient(135deg, #0A0D1F 0%, #1a1a2e 50%, #16213e 100%);
+        background: linear-gradient(
+          135deg,
+          #0a0d1f 0%,
+          #1a1a2e 50%,
+          #16213e 100%
+        );
         color: white;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         min-height: 100vh;
         padding-top: 120px;
       }
@@ -100,17 +103,24 @@
 
     <nav class="navbar">
       <div class="logoContainer">
-        <div class="logoCircle">
-          🔭
-        </div>
-        <div class="logoSlogan">Exora - Planet Explorer</div>
+        <div class="logoCircle">🌌</div>
+        <div class="logoSlogan">Exora - Exploring Pathways Beyond</div>
       </div>
       <ul class="navLinks">
         <li><a href="http://localhost:5173/" class="nav-link">Home</a></li>
         <li><a href="/starmap" class="nav-link">Star Map</a></li>
-        <li><a href="/discovery-trends" class="nav-link">Discovery Trends</a></li>
+        <li>
+          <a href="/discovery-trends" class="nav-link">Discovery Trends</a>
+        </li>
         <li><a href="/orbital-viewer" class="nav-link">Orbital Viewer</a></li>
-        <li><a href="/planet-explorer" class="nav-link active">Planet Explorer</a></li>
+        <li>
+          <a href="/planet-explorer" class="nav-link active">Planet Explorer</a>
+        </li>
+        <li>
+          <a href="http://localhost:5173/radial-velocity" class="nav-link"
+            >RV Analysis</a
+          >
+        </li>
       </ul>
     </nav>
 

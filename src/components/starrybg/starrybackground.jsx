@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 export default function StarryBackground() {
   const canvasRef = useRef(null);
@@ -7,7 +7,7 @@ export default function StarryBackground() {
     const canvas = canvasRef.current;
     if (!canvas) return;
 
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
     let width = window.innerWidth;
@@ -21,7 +21,7 @@ export default function StarryBackground() {
     };
 
     setCanvasSize();
-    window.addEventListener('resize', setCanvasSize);
+    window.addEventListener("resize", setCanvasSize);
 
     /** @type {Array<{x: number, y: number, radius: number, vx: number, vy: number, alpha: number}>} */
     const stars = [];
@@ -42,6 +42,8 @@ export default function StarryBackground() {
 
     createStars(200);
 
+    let animationId;
+
     const drawStars = () => {
       ctx.clearRect(0, 0, width, height);
 
@@ -61,19 +63,22 @@ export default function StarryBackground() {
         star.alpha = Math.max(0.3, Math.min(1, star.alpha));
       });
 
-      requestAnimationFrame(drawStars);
+      animationId = requestAnimationFrame(drawStars);
     };
 
     drawStars();
 
     return () => {
-      window.removeEventListener('resize', setCanvasSize);
+      window.removeEventListener("resize", setCanvasSize);
+      if (animationId) {
+        cancelAnimationFrame(animationId);
+      }
     };
   }, []);
 
   return (
     <div
-      className="absolute inset-0 w-full h-full z-0 pointer-events-none"
+      className="absolute inset-0 w-full h-full z-0 pointer-events-none cavnasss"
       aria-hidden="true"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a0e27] via-[#16213e] to-[#0f3460]" />

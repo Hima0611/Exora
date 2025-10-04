@@ -1,0 +1,496 @@
+/* Radial Velocity Analysis Page - Matching Exora Design System */
+
+.radialVelocityPage {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  background: var(--gradient-space);
+  color: var(--color-text-white);
+  font-family: var(--font-family);
+}
+
+/* Main Content Container */
+.rvContent {
+  position: relative;
+  z-index: 10;
+  padding-top: 140px;
+  padding-bottom: 4rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/* Header Section */
+.rvHeader {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.rvTitle {
+  font-size: var(--font-size-hero);
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.rvSubtitle {
+  font-size: var(--font-size-body);
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Glass Card Components */
+.rvCard {
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur-strong);
+  -webkit-backdrop-filter: var(--glass-blur-strong);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--card-border-radius);
+  padding: var(--card-padding);
+  margin-bottom: 2rem;
+  box-shadow: var(--shadow-card);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rvCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+}
+
+.rvCardTitle {
+  font-size: var(--font-size-card);
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rvCardTitle .emoji {
+  font-size: 1.8rem;
+}
+
+/* Controls Grid */
+.controlsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.controlGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.controlLabel {
+  font-size: var(--font-size-small);
+  font-weight: 500;
+  color: var(--color-text-white);
+  opacity: 0.9;
+}
+
+.controlInput {
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
+  border-radius: 8px;
+  color: var(--color-text-white);
+  font-size: var(--font-size-small);
+  transition: all 0.3s ease;
+}
+
+.controlInput:focus {
+  outline: none;
+  border-color: var(--color-button);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+}
+
+/* Button Styles */
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.rvButton {
+  background: linear-gradient(
+    135deg,
+    var(--color-button),
+    var(--color-button-hover)
+  );
+  color: var(--color-text-white);
+  border: none;
+  padding: 0.875rem 2rem;
+  font-size: var(--font-size-small);
+  font-weight: 600;
+  border-radius: var(--button-border-radius);
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+}
+
+.rvButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.4);
+  background: linear-gradient(135deg, #0056b3, #004494);
+}
+
+.rvButton:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.rvButtonSecondary {
+  background: transparent;
+  border: 2px solid var(--color-button);
+  color: var(--color-button);
+}
+
+.rvButtonSecondary:hover:not(:disabled) {
+  background: var(--color-button);
+  color: var(--color-text-white);
+}
+
+/* Visualization Container */
+.visualizationContainer {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--glass-border);
+  border-radius: 15px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.chartContainer {
+  width: 100%;
+  height: 350px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Chart wrapper to ensure proper canvas management */
+.chart-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+/* Statistics Grid */
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.statItem {
+  text-align: center;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.statValue {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-button);
+  margin-bottom: 0.25rem;
+}
+
+.statLabel {
+  font-size: var(--font-size-small);
+  opacity: 0.8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Results Section */
+.resultsSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.resultCard {
+  background: var(--glass-bg-light);
+  backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+
+.resultTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.resultValue {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.resultLabel {
+  color: var(--color-button);
+  font-weight: 500;
+}
+
+/* Loading State */
+.loadingOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--card-border-radius);
+  z-index: 100;
+}
+
+.loadingSpinner {
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--glass-border);
+  border-top: 3px solid var(--color-button);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Error State */
+.errorMessage {
+  background: rgba(220, 53, 69, 0.1);
+  border: 1px solid rgba(220, 53, 69, 0.3);
+  color: #ff6b7a;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* Success State */
+.successMessage {
+  background: rgba(40, 167, 69, 0.1);
+  border: 1px solid rgba(40, 167, 69, 0.3);
+  color: #4ade80;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .rvContent {
+    padding-top: 120px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .rvTitle {
+    font-size: 2.5rem;
+  }
+
+  .controlsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .resultsSection {
+    grid-template-columns: 1fr;
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .rvButton {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .rvTitle {
+    font-size: 2rem;
+  }
+
+  .rvCard {
+    padding: 1.5rem;
+  }
+
+  .chartContainer {
+    height: 250px;
+  }
+}
+
+/* Animation Classes */
+.fadeInUp {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.fadeInUp:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.fadeInUp:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.fadeInUp:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.fadeInUp:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* SVG Styling */
+.rvChart {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+}
+
+.chartAxis {
+  stroke: rgba(255, 255, 255, 0.3);
+  stroke-width: 1;
+}
+
+.chartGrid {
+  stroke: rgba(255, 255, 255, 0.1);
+  stroke-width: 0.5;
+}
+
+.dataPoint {
+  fill: var(--color-button);
+  stroke: rgba(96, 165, 250, 0.8);
+  stroke-width: 1;
+}
+
+.dataLine {
+  fill: none;
+  stroke: var(--color-button);
+  stroke-width: 2;
+  opacity: 0.8;
+}
+
+.chartText {
+  fill: var(--color-text-white);
+  font-size: 12px;
+  font-family: var(--font-family);
+}
+
+/* Chart Container Styles */
+.chartContainer {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(10, 13, 31, 0.3);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.chartDescription {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: rgba(0, 123, 255, 0.05);
+  border-radius: 8px;
+  border-left: 3px solid var(--color-button);
+}
+
+.chartDescription p {
+  margin: 0 0 0.5rem 0;
+  font-size: var(--font-size-small);
+  line-height: 1.5;
+  opacity: 0.9;
+}
+
+.chartDescription strong {
+  color: var(--color-button);
+  font-weight: 600;
+}
+
+.statisticalInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.statisticalInfo .statLabel {
+  font-size: var(--font-size-small);
+  opacity: 0.8;
+}
+
+.statisticalInfo .statValue {
+  font-weight: 600;
+  color: var(--color-button);
+}
+
+/* Detection Badge */
+.detectionBadge {
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(0, 123, 255, 0.2),
+    rgba(0, 123, 255, 0.1)
+  );
+  border: 1px solid rgba(0, 123, 255, 0.3);
+  border-radius: 8px;
+  text-align: center;
+  font-size: var(--font-size-small);
+}
+
+.detectionBadge strong {
+  color: var(--color-button);
+  text-transform: uppercase;
+  font-weight: 700;
+}

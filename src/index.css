@@ -1,4 +1,5 @@
 /* --- GLOBAL THEME OVERRIDES --- */
+ @import "tailwindcss";
 :root {
   /* Set the cosmic dark blue theme colors */
   --color-dark-blue: #0A0D1F; 
