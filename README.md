@@ -1,7 +1,7 @@
 # Exora - Exoplanet Explorer Web App
 
 <!-- Project Overview Video -->
-<video src="https://github.com/Hima0611/Exora/blob/main/src/assets/Proj_Video.mp4" controls width="600">
+<video src="src/assets/Proj_Video.mp4" controls width="600">
   Your browser does not support the video tag.
 </video>
 
