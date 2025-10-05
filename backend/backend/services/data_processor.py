@@ -15,11 +15,9 @@ class DataProcessor:
         from services.nasa_api import NASAExoplanetAPI
         nasa_api = NASAExoplanetAPI()
         
-        # Load data if not already loaded
         if not nasa_api.exoplanets_data:
             nasa_api.load_exoplanets()
         
-        # Count discoveries by year
         years = []
         for planet in nasa_api.exoplanets_data:
             if planet.get('discovery_year'):
@@ -27,7 +25,6 @@ class DataProcessor:
         
         year_counts = Counter(years)
         
-        # Convert to format suitable for charts
         stats = {
             'years': sorted(year_counts.keys()),
             'counts': [year_counts[year] for year in sorted(year_counts.keys())],
@@ -54,7 +51,6 @@ class DataProcessor:
         
         method_counts = Counter(methods)
         
-        # Convert to format suitable for pie charts
         return {
             'methods': list(method_counts.keys()),
             'counts': list(method_counts.values()),
@@ -69,13 +65,11 @@ class DataProcessor:
         if not nasa_api.exoplanets_data:
             nasa_api.load_exoplanets()
         
-        # Collect radius data
         radii = []
         for planet in nasa_api.exoplanets_data:
             if planet.get('radius') and planet['radius'] > 0:
                 radii.append(float(planet['radius']))
         
-        # Create size categories (in Earth radii)
         size_categories = {
             'Super-Earth (1-1.75 R⊕)': 0,
             'Sub-Neptune (1.75-3.5 R⊕)': 0,
@@ -115,11 +109,9 @@ class DataProcessor:
         if not nasa_api.exoplanets_data:
             nasa_api.load_exoplanets()
         
-        # Find the specific planet
         planet = next((p for p in nasa_api.exoplanets_data if p['name'].lower() == planet_name.lower()), None)
         
         if not planet:
-            # Return default orbital parameters for demonstration
             planet = {
                 'name': planet_name,
                 'orbital_period': 365.25,
@@ -127,11 +119,9 @@ class DataProcessor:
                 'distance': 50
             }
         
-        # Calculate orbital parameters for visualization
         orbital_period = planet.get('orbital_period', 365.25)  # days
         planet_radius = planet.get('radius', 1.0)  # Earth radii
         
-        # Generate orbital positions (simplified circular orbit)
         num_points = 100
         angles = np.linspace(0, 2*np.pi, num_points)
         
@@ -175,7 +165,6 @@ class DataProcessor:
             temp = planet.get('equilibrium_temp')
             radius = planet.get('radius')
             
-            # Rough habitable zone criteria
             if temp and radius:
                 if 200 <= temp <= 350 and 0.5 <= radius <= 2.5:
                     habitable_planets.append(planet)

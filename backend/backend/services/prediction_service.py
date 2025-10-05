@@ -37,7 +37,6 @@ class ExoplanetPredictor:
                 with open(feature_file, 'r') as f:
                     self.features = json.load(f)
             else:
-                # Default features based on your training script
                 self.features = [
                     "koi_period",
                     "koi_duration", 
@@ -49,13 +48,11 @@ class ExoplanetPredictor:
                     "koi_srad"
                 ]
             
-            # Load label map
             label_file = self.model_path / "label_map.json"
             if label_file.exists():
                 with open(label_file, 'r') as f:
                     self.label_map = json.load(f)
             else:
-                # Default label map based on your training script
                 self.label_map = {"FALSE POSITIVE": 0, "CONFIRMED": 1, "CANDIDATE": 2}
             
             self.inv_label_map = {v: k for k, v in self.label_map.items()}
@@ -73,7 +70,6 @@ class ExoplanetPredictor:
             if missing_features:
                 raise ValueError(f"Missing required features: {missing_features}")
             
-            # Check for valid numeric values
             for feature in self.features:
                 try:
                     float(data[feature])
@@ -85,7 +81,6 @@ class ExoplanetPredictor:
             if missing_features:
                 raise ValueError(f"Missing required columns: {missing_features}")
             
-            # Check for null values
             null_counts = data[self.features].isnull().sum()
             if null_counts.any():
                 null_features = null_counts[null_counts > 0].index.tolist()
@@ -96,10 +91,8 @@ class ExoplanetPredictor:
         try:
             self.validate_input(input_data)
             
-            # Convert to numpy array
             X = np.array([[float(input_data[f]) for f in self.features]])
             
-            # Get prediction and probabilities
             prediction = self.model.predict(X)[0]
             probabilities = self.model.predict_proba(X)[0]
             
@@ -125,14 +118,11 @@ class ExoplanetPredictor:
         try:
             self.validate_input(df)
             
-            # Prepare data
             X = df[self.features].values
             
-            # Get predictions and probabilities
             predictions = self.model.predict(X)
             probabilities = self.model.predict_proba(X)
             
-            # Format results
             results = []
             for i, (pred, probs) in enumerate(zip(predictions, probabilities)):
                 result = {
@@ -148,7 +138,6 @@ class ExoplanetPredictor:
                 }
                 results.append(result)
             
-            # Summary statistics
             summary = {
                 'total_predictions': len(results),
                 'confirmed': sum(1 for r in results if r['prediction'] == 'CONFIRMED'),

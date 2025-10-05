@@ -61,7 +61,6 @@ class NASAExoplanetAPI:
             
             data = response.json()
             
-            # Process and clean the data
             processed_data = []
             for planet in data:
                 if planet.get('pl_name') and planet.get('hostname'):
@@ -82,7 +81,6 @@ class NASAExoplanetAPI:
             
             self.exoplanets_data = processed_data
             
-            # Cache the data
             with open(self.cache_file, 'w') as f:
                 json.dump(self.exoplanets_data, f, indent=2)
             
@@ -90,7 +88,6 @@ class NASAExoplanetAPI:
             
         except Exception as e:
             print(f"Error fetching NASA data: {e}")
-            # Fallback to sample data
             self.generate_sample_exoplanets()
     
     def generate_sample_exoplanets(self):
@@ -118,7 +115,6 @@ class NASAExoplanetAPI:
         
         self.exoplanets_data = sample_planets
         
-        # Cache the sample data
         with open(self.cache_file, 'w') as f:
             json.dump(self.exoplanets_data, f, indent=2)
     
@@ -130,7 +126,7 @@ class NASAExoplanetAPI:
         star_types = ['G', 'K', 'M', 'F', 'A']
         
         for i in range(500):
-            has_planets = np.random.random() < 0.3  # 30% chance of having planets
+            has_planets = np.random.random() < 0.3 
             
             star = {
                 'name': f'HD {i+1000}',
@@ -147,7 +143,6 @@ class NASAExoplanetAPI:
         
         self.stars_data = sample_stars
         
-        # Cache the sample data
         with open(self.stars_cache_file, 'w') as f:
             json.dump(self.stars_data, f, indent=2)
     
@@ -157,13 +152,11 @@ class NASAExoplanetAPI:
     
     def get_star_info(self, star_name):
         """Get information about a specific star"""
-        # Find star in our data
         star = next((s for s in self.stars_data if s['name'].lower() == star_name.lower()), None)
         
         if not star:
             return {'error': 'Star not found'}
         
-        # Find planets for this star
         planets = [p for p in self.exoplanets_data if p['host_star'].lower() == star_name.lower()]
         
         return {

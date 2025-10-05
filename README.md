@@ -1,5 +1,9 @@
 # Exora - Exoplanet Explorer Web App
 
+<!-- Project Overview Video -->
+<video src="./src/assets/Proj_Video.mp4" controls width="600">
+  Your browser does not support the video tag.
+</video>
 
 ## Overview
 
@@ -48,7 +52,7 @@ Exora is a hybrid full-stack application combining a React frontend with a Flask
 
 3. Install backend dependencies
    ```
-   cd backend
+   cd backend/backend
    pip install -r requirements.txt
    ```
 

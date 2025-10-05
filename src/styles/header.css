@@ -1,4 +1,3 @@
-/* --- CSS VARIABLES FOR CONSISTENCY (defined here or in a global file) --- */
 :root {
   --color-dark-blue: #0a0d1f;
   --color-text-white: #ffffff;
@@ -122,16 +121,10 @@
     background: rgba(255, 255, 255, 0.1);
 }
 
-.subscribeBtnNav {
-  border: 1px solid var(--color-text-white);
-  padding: 5px 15px;
-  border-radius: 20px;
-}
-
 /* Hero Content */
 .heroContent {
-  max-width: 800px;
-  margin-left: 150px;
+  max-width: -webkit-fill-available;
+  margin-left: 40px;
 }
 
 .subtitle {

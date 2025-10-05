@@ -118,3 +118,34 @@
   justify-content: center;
   overflow: hidden;
 }
+
+/* Navigation Links Styling */
+.navLinks {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navLinks a {
+  color: var(--color-text-white);
+  text-decoration: none;
+  font-size: var(--font-size-body);
+  transition: color 0.3s;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.navLinks a:hover,
+.navLinks a.active {
+  color: var(--color-button);
+  background: var(--glass-bg-light);
+}
+
+.logoSlogan {
+  font-size: 0.7rem;
+  margin-top: 5px;
+  text-align: center;
+  color: var(--color-text-white);
+}

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
@@ -22,7 +23,7 @@ const AnimatedNumber = ({ number, delay = 0 }) => {
     return () => {
       timers.forEach((t) => clearTimeout(t));
     };
-  }, [number, delay, digits.length ]);
+  }, [number, delay, digits.length]);
 
   return (
     <h2 className="animatedNumber">
@@ -63,13 +64,19 @@ const Features = () => {
   }, []);
 
   const handleRadialVelocity = () => navigate("/radial-velocity");
-  const handleExploreStars = () => window.location.href = "http://localhost:5000/starmap";
-  const handleViewTrends = () => window.location.href = "http://localhost:5000/discovery-trends";
-  const handleViewOrbits = () => window.location.href = "http://localhost:5000/orbital-viewer";
-  const handleExplorePlanets = () => window.location.href = "http://localhost:5000/planet-explorer";
-  const handleAIPredict = () => window.location.href = "http://localhost:5000/predict";
-  const handleKnowledge = () => {navigate("/knowledge"); };
-
+  const handleExploreStars = () =>
+    (window.location.href = "http://localhost:5000/starmap");
+  const handleViewTrends = () =>
+    (window.location.href = "http://localhost:5000/discovery-trends");
+  const handleViewOrbits = () =>
+    (window.location.href = "http://localhost:5000/orbital-viewer");
+  const handleExplorePlanets = () =>
+    (window.location.href = "http://localhost:5000/planet-explorer");
+  const handleAIPredict = () =>
+    (window.location.href = "http://localhost:5000/predict");
+  const handleKnowledge = () => {
+    navigate("/knowledge");
+  };
 
   return (
     <div className="featuresWrapper">
@@ -111,50 +118,74 @@ const Features = () => {
           </b>
 
           <div className="featureCards">
-            <div className="card">
+            <div className="card glass-card">
               <div className="iconPlaceholder">✨</div>
               <h3>Interactive Star Map</h3>
               <p>Explore stars and exoplanets in a 3D interactive map.</p>
-              <button className="learnMoreBtn" onClick={handleExploreStars}>
+              <button
+                className="learnMoreBtn primary-button"
+                onClick={handleExploreStars}
+              >
                 Explore Stars
               </button>
             </div>
 
-            <div className="card">
+            <div className="card glass-card">
               <div className="iconPlaceholder">🪐</div>
               <h3>Discovery Trends</h3>
               <p>Analyze trends in exoplanet discoveries over time.</p>
-              <button className="learnMoreBtn" onClick={handleViewTrends}>
+              <button
+                className="learnMoreBtn primary-button"
+                onClick={handleViewTrends}
+              >
                 View Trends
               </button>
             </div>
 
-            <div className="card">
+            <div className="card glass-card">
               <div className="iconPlaceholder">🌍</div>
               <h3>3D Orbital Viewer</h3>
               <p>Visualize planetary orbits with stunning 3D animations.</p>
-              <button className="learnMoreBtn" onClick={handleViewOrbits}>
+              <button
+                className="learnMoreBtn primary-button"
+                onClick={handleViewOrbits}
+              >
                 View Orbits
               </button>
             </div>
 
-      <div className="card">
-        <div className="iconPlaceholder">🔭</div>
-        <h3>Planet Explorer</h3>
-        <p>Navigate through a rich database of exoplanets and their characteristics.</p>
-        <button className="learnMoreBtn" onClick={handleExplorePlanets}>Explore Planets</button>
-      </div>
+            <div className="card glass-card">
+              <div className="iconPlaceholder">🔭</div>
+              <h3>Planet Explorer</h3>
+              <p>
+                Navigate through a rich database of exoplanets and their
+                characteristics.
+              </p>
+              <button
+                className="learnMoreBtn primary-button"
+                onClick={handleExplorePlanets}
+              >
+                Explore Planets
+              </button>
+            </div>
 
-      <div className="card">
-        <div className="iconPlaceholder">🔮</div>
-        <h3>AI Prediction</h3>
-        <p>Use machine learning to predict exoplanet classifications and probabilities.</p>
-        <button className="learnMoreBtn" onClick={handleAIPredict}>Predict Now</button>
-      </div>
-    </div>
-  </div>
-</section>
-
+            <div className="card glass-card">
+              <div className="iconPlaceholder">🔮</div>
+              <h3>AI Prediction</h3>
+              <p>
+                Use machine learning to predict exoplanet classifications and
+                probabilities.
+              </p>
+              <button
+                className="learnMoreBtn primary-button"
+                onClick={handleAIPredict}
+              >
+                Predict Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* SECTION 3: SCIENCE MEETS WONDER */}
       <section className="wonderSection">
@@ -168,7 +199,12 @@ const Features = () => {
               science, stories, and discoveries that will inspire curiosity and
               spark imagination.
             </p>
-            <button className="primaryBtn" onClick={handleKnowledge}>Learn More</button>
+            <button
+              className="primaryBtn primary-button"
+              onClick={handleKnowledge}
+            >
+              Learn More
+            </button>
           </div>
 
           <div className="visualCluster">
