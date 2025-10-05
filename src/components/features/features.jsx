@@ -68,6 +68,8 @@ const Features = () => {
   const handleViewOrbits = () => window.location.href = "http://localhost:5000/orbital-viewer";
   const handleExplorePlanets = () => window.location.href = "http://localhost:5000/planet-explorer";
   const handleAIPredict = () => window.location.href = "http://localhost:5000/predict";
+  const handleKnowledge = () => {navigate("/knowledge"); };
+
 
   return (
     <div className="featuresWrapper">
@@ -166,7 +168,7 @@ const Features = () => {
               science, stories, and discoveries that will inspire curiosity and
               spark imagination.
             </p>
-            <button className="primaryBtn">Learn More</button>
+            <button className="primaryBtn" onClick={handleKnowledge}>Learn More</button>
           </div>
 
           <div className="visualCluster">
