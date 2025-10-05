@@ -63,7 +63,7 @@ const Features = () => {
     fetchStats();
   }, []);
 
-  const Url = "https://exora-yrj4.onrender.com/";
+  const Url = "https://exora-1.onrender.com/";
   const handleRadialVelocity = () => navigate("/radial-velocity");
   const handleExploreStars = () =>
     (window.location.href = `${Url}/starmap`);
