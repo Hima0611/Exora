@@ -30,23 +30,23 @@ const Header = () => {
             <a href="/">Home</a>
           </li>
           <li>
-            <a href="http://localhost:5000/starmap">Star Map</a>
+            <a href="https://exora-1.onrender.com/starmap">Star Map</a>
           </li>
           <li>
-            <a href="http://localhost:5000/discovery-trends">
+            <a href="https://exora-1.onrender.com/discovery-trends">
               Discovery Trends
             </a>
           </li>
           <li>
-            <a href="http://localhost:5000/orbital-viewer">Orbital Viewer</a>
+            <a href="https://exora-1.onrender.com/orbital-viewer">Orbital Viewer</a>
           </li>
           <li>
-            <a href="http://localhost:5000/planet-explorer">Planet Explorer</a>
+            <a href="https://exora-1.onrender.com/planet-explorer">Planet Explorer</a>
           </li>
           <li>
             <a href="/radial-velocity">RV Analysis</a>
           </li>
-           <li><a href="http://localhost:5000/predict">AI Predict</a></li>
+           <li><a href="https://exora-1.onrender.com/predict">AI Predict</a></li>
         </ul>
       </nav>
 
