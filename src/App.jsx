@@ -5,7 +5,7 @@ import Footer from "./components/footer/footer.jsx";
 import BlogSection from "./components/blog/BlogSection.jsx";
 import SingleBlog from "./components/blog/SingleBlog.jsx";
 import RadialVelocityAnalysisOriginal from "./components/pages/radialvelocity.jsx";
-
+import Knowledge from "./components/pages/Knowledge.jsx";
 function App() {
   return (
     <Routes>
@@ -27,6 +27,7 @@ function App() {
         path="/radial-velocity"
         element={<RadialVelocityAnalysisOriginal />}
       />
+      <Route path="/knowledge" element={<Knowledge />} />
     </Routes>
   );
 }
