@@ -63,17 +63,18 @@ const Features = () => {
     fetchStats();
   }, []);
 
+  const Url = "https://exora-yrj4.onrender.com/";
   const handleRadialVelocity = () => navigate("/radial-velocity");
   const handleExploreStars = () =>
-    (window.location.href = "http://localhost:5000/starmap");
+    (window.location.href = `${Url}/starmap`);
   const handleViewTrends = () =>
-    (window.location.href = "http://localhost:5000/discovery-trends");
+    (window.location.href = `${Url}/discovery-trends`);
   const handleViewOrbits = () =>
-    (window.location.href = "http://localhost:5000/orbital-viewer");
+    (window.location.href = `${Url}/orbital-viewer`);
   const handleExplorePlanets = () =>
-    (window.location.href = "http://localhost:5000/planet-explorer");
+    (window.location.href = `${Url}/planet-explorer`);
   const handleAIPredict = () =>
-    (window.location.href = "http://localhost:5000/predict");
+    (window.location.href = `${Url}/predict`);
   const handleKnowledge = () => {
     navigate("/knowledge");
   };

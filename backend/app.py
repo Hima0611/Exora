@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, redirect, render_template, jsonify, request
 from flask_cors import CORS
 import pandas as pd
 import numpy as np
@@ -47,7 +47,7 @@ def convert_for_json(obj):
 @app.route('/')
 def index():
     """Main dashboard with overview"""
-    return render_template('index.html')
+    return redirect("https://exora-lovat.vercel.app/")
 
 @app.route('/starmap')
 def starmap():
