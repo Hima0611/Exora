@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useCallback, useMemo } from "react";
 import Header from "../header/header";
-import RVSideNav from "./rv-sidenav";
 import "../../styles/variables.css";
-import "./radialvelocity.css";
+import "../../styles/radialvelocity.css";
 import {
   Chart as ChartJS,
   CategoryScale,

@@ -4,7 +4,6 @@ import Features from "./components/features/features.jsx";
 import Footer from "./components/footer/footer.jsx";
 import BlogSection from "./components/blog/BlogSection.jsx";
 import SingleBlog from "./components/blog/SingleBlog.jsx";
-import RadialVelocityAnalysisWorking from "./components/pages/radialvelocity-working.jsx";
 import RadialVelocityAnalysisOriginal from "./components/pages/radialvelocity.jsx";
 
 function App() {

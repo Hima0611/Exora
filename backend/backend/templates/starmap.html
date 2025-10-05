@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Interactive Star Map - A World Away</title>
+    
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='css/style.css') }}"
@@ -23,11 +24,11 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 95%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 40px;
+        padding: 0px 20px;
         background: rgba(10, 13, 31, 0.9);
         backdrop-filter: blur(10px);
         z-index: 100;
@@ -98,23 +99,30 @@
       }
     </style>
 
-    <nav class="navbar">
+   <nav class="navbar">
       <div class="logoContainer">
-        <div class="logoCircle">
-          🌌
-        </div>
-        <div class="logoSlogan">Exora - Star Map</div>
+        <div class="logoCircle">🌌</div>
+        <div class="logoSlogan">Exora - Exploring Pathways Beyond</div>
       </div>
       <ul class="navLinks">
         <li><a href="http://localhost:5173/" class="nav-link">Home</a></li>
         <li><a href="/starmap" class="nav-link active">Star Map</a></li>
-        <li><a href="/discovery-trends" class="nav-link">Discovery Trends</a></li>
+        <li>
+          <a href="/discovery-trends" class="nav-link"
+            >Discovery Trends</a>
+        </li>
         <li><a href="/orbital-viewer" class="nav-link">Orbital Viewer</a></li>
         <li><a href="/planet-explorer" class="nav-link">Planet Explorer</a></li>
+        <li>
+          <a href="http://localhost:5173/radial-velocity" class="nav-link">RV Analysis</a>
+        </li>
+        <li>
+          <a href="/predict">AI Predict</a>
+        </li>
       </ul>
     </nav>
 
-    <main class="main-content">
+    <!-- <main class="main-content">
       <div class="page-header">
         <h1>🔭 Interactive Star Map</h1>
         <p>
@@ -207,9 +215,93 @@
           <label>Stars with Planets</label>
         </div>
       </div>
+    </main> -->
+
+        <main class="main-content">
+      <div class="page-header">
+        <h1>🔭 Interactive Star Map</h1>
+        <p>
+          Explore stars and discover their exoplanets. Click on stars with
+          planets to learn more!
+        </p>
+      </div>
+
+      <div class="controls-panel">
+        <div class="control-group">
+          <label for="distance-filter">Distance Filter (parsecs):</label>
+          <input
+            type="range"
+            id="distance-filter"
+            min="10"
+            max="200"
+            value="100"
+            step="10"
+          />
+          <span id="distance-value">100</span>
+        </div>
+        <div class="control-group">
+          <label for="star-type-filter">Star Type:</label>
+          <select id="star-type-filter">
+            <option value="all">All Types</option>
+            <option value="G">G-type (Sun-like)</option>
+            <option value="K">K-type (Orange dwarf)</option>
+            <option value="M">M-type (Red dwarf)</option>
+            <option value="F">F-type (Yellow-white)</option>
+            <option value="A">A-type (White)</option>
+          </select>
+        </div>
+        <div class="control-group">
+          <button id="planets-only-btn" class="filter-btn">
+            Show Only Stars with Planets
+          </button>
+          <button id="reset-view-btn" class="filter-btn">Reset View</button>
+        </div>
+      </div>
+
+      <div class="starmap-container">
+        <div id="starmap-canvas"></div>
+        <div class="starmap-legend">
+          <div class="legend-item">
+            <div class="legend-color" style="background: #ffff88"></div>
+            <span>Star with exoplanets</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: #ffffff"></div>
+            <span>Star without known planets</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: #ff6666"></div>
+            <span>Multiple planet systems</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="star-info-panel" id="star-info-panel" style="display: none">
+        <div class="panel-header">
+          <h3 id="star-name">Star Information</h3>
+          <button class="close-btn" onclick="closeStarInfo()">&times;</button>
+        </div>
+        <div class="panel-content">
+          <div class="star-details">
+            <p>
+              <strong>Distance:</strong>
+              <span id="star-distance">-</span> parsecs
+            </p>
+            <p><strong>Spectral Type:</strong> <span id="star-type">-</span></p>
+            <p><strong>Temperature:</strong> <span id="star-temp">-</span> K</p>
+            <p>
+              <strong>Magnitude:</strong> <span id="star-magnitude">-</span>
+            </p>
+          </div>
+          <div class="planets-list" id="planets-list">
+            <h4>Discovered Exoplanets:</h4>
+            <div id="planets-container"></div>
+          </div>
+        </div>
+      </div>
+
     </main>
 
-    <script src="{{ url_for('static', filename='js/starmap.js') }}"></script>
     <script>
       let starsData = [];
       let scene,

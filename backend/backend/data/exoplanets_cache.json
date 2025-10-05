@@ -1,5 +1,135 @@
 [
   {
+    "name": "TOI-1117 b",
+    "host_star": "TOI-1117",
+    "orbital_period": 2.22816,
+    "radius": 2.46,
+    "mass": 8.9,
+    "equilibrium_temp": 1538.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 273.6020606,
+    "dec": -66.4199742,
+    "distance": 167.598
+  },
+  {
+    "name": "BD+05 4868 A b",
+    "host_star": "BD+05 4868 A",
+    "orbital_period": 1.271869,
+    "radius": null,
+    "mass": 6.2,
+    "equilibrium_temp": 1820.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 326.8614036,
+    "dec": 6.6053185,
+    "distance": 43.5687
+  },
+  {
+    "name": "KMT-2021-BLG-0736L b",
+    "host_star": "KMT-2021-BLG-0736L",
+    "orbital_period": null,
+    "radius": null,
+    "mass": 21.0,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Microlensing",
+    "ra": 268.3225833,
+    "dec": -29.7124194,
+    "distance": 7000.0
+  },
+  {
+    "name": "TOI-5143 c",
+    "host_star": "TOI-5143",
+    "orbital_period": 5.2097118,
+    "radius": 16.25302201,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 165.3651202,
+    "dec": 5.1394812,
+    "distance": 181.38
+  },
+  {
+    "name": "OGLE-2016-BLG-0007L b",
+    "host_star": "OGLE-2016-BLG-0007L",
+    "orbital_period": 14200.0,
+    "radius": null,
+    "mass": 1.32,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Microlensing",
+    "ra": 268.3560417,
+    "dec": -29.64225,
+    "distance": 4300.0
+  },
+  {
+    "name": "WASP-102 b",
+    "host_star": "WASP-102",
+    "orbital_period": 2.709813,
+    "radius": 14.90794433,
+    "mass": 197.68926915,
+    "equilibrium_temp": 1671.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 336.4643016,
+    "dec": 15.8566392,
+    "distance": 535.689
+  },
+  {
+    "name": "KMT-2019-BLG-0578L b",
+    "host_star": "KMT-2019-BLG-0578L",
+    "orbital_period": null,
+    "radius": null,
+    "mass": 381.3940884,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Microlensing",
+    "ra": 269.4846667,
+    "dec": -27.7948611,
+    "distance": 7300.0
+  },
+  {
+    "name": "Gl 410 b",
+    "host_star": "Gl 410",
+    "orbital_period": 6.02,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Radial Velocity",
+    "ra": 165.6604212,
+    "dec": 21.9669164,
+    "distance": 11.9324
+  },
+  {
+    "name": "TOI-6478 b",
+    "host_star": "TOI-6478",
+    "orbital_period": 34.005019,
+    "radius": 4.6,
+    "mass": null,
+    "equilibrium_temp": 204.4,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 149.9918059,
+    "dec": -16.1597935,
+    "distance": 38.6057
+  },
+  {
+    "name": "TOI-6628 b",
+    "host_star": "TOI-6628",
+    "orbital_period": 18.18424,
+    "radius": 10.98480109,
+    "mass": 235.19302118,
+    "equilibrium_temp": 833.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 225.8370504,
+    "dec": -35.2305793,
+    "distance": 320.527
+  },
+  {
     "name": "TOI-4487 A b",
     "host_star": "TOI-4487 A",
     "orbital_period": 3.9540709,
@@ -622,6 +752,136 @@
     "ra": 270.8237917,
     "dec": -26.9071111,
     "distance": 3300.0
+  },
+  {
+    "name": "TOI-3877 b",
+    "host_star": "TOI-3877",
+    "orbital_period": 4.123596,
+    "radius": 11.67975789,
+    "mass": 99.7981198,
+    "equilibrium_temp": 1445.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 170.4544727,
+    "dec": 33.9913822,
+    "distance": 493.77
+  },
+  {
+    "name": "TOI-4961 b",
+    "host_star": "TOI-4961",
+    "orbital_period": 7.479182,
+    "radius": 12.34108775,
+    "mass": 572.0911326,
+    "equilibrium_temp": 919.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 192.5018624,
+    "dec": -59.8919345,
+    "distance": 213.073
+  },
+  {
+    "name": "TOI-3464 b",
+    "host_star": "TOI-3464",
+    "orbital_period": 3.6515568,
+    "radius": 13.7646283,
+    "mass": 397.28550875,
+    "equilibrium_temp": 1693.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 234.4830357,
+    "dec": -44.7899772,
+    "distance": 597.774
+  },
+  {
+    "name": "TOI-5592 b",
+    "host_star": "TOI-5592",
+    "orbital_period": 2.6085846,
+    "radius": 17.14974047,
+    "mass": 285.72773789,
+    "equilibrium_temp": 1789.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 106.6800684,
+    "dec": 65.857249,
+    "distance": 597.026
+  },
+  {
+    "name": "TOI-4734 b",
+    "host_star": "TOI-4734",
+    "orbital_period": 6.235633,
+    "radius": 10.9175472,
+    "mass": 61.65871096,
+    "equilibrium_temp": 1468.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 90.3581219,
+    "dec": 12.5478825,
+    "distance": 563.068
+  },
+  {
+    "name": "TOI-2986 b",
+    "host_star": "TOI-2986",
+    "orbital_period": 3.2783662,
+    "radius": 9.292245,
+    "mass": 96.61983573,
+    "equilibrium_temp": 1622.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 163.7715605,
+    "dec": -6.4784524,
+    "distance": 563.149
+  },
+  {
+    "name": "TOI-4794 b",
+    "host_star": "TOI-4794",
+    "orbital_period": 3.5658116,
+    "radius": 14.35870428,
+    "mass": 308.29355479,
+    "equilibrium_temp": 1673.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 110.4835517,
+    "dec": -12.5654781,
+    "distance": 543.008
+  },
+  {
+    "name": "TOI-2005 b",
+    "host_star": "TOI-2005",
+    "orbital_period": 17.305904,
+    "radius": 11.99360935,
+    "mass": 2034.1018048,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 164.031654,
+    "dec": -43.3766967,
+    "distance": 328.475
+  },
+  {
+    "name": "TOI-5340 b",
+    "host_star": "TOI-5340",
+    "orbital_period": 4.9394392,
+    "radius": 15.07607904,
+    "mass": 270.15414595,
+    "equilibrium_temp": 1566.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 59.3094816,
+    "dec": 22.3783373,
+    "distance": 532.629
+  },
+  {
+    "name": "TOI-1453 c",
+    "host_star": "TOI-1453",
+    "orbital_period": 6.5886982,
+    "radius": 2.224,
+    "mass": 2.95,
+    "equilibrium_temp": 819.8,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 258.2232705,
+    "dec": 57.1977779,
+    "distance": 78.7415
   },
   {
     "name": "TOI-3980 b",
@@ -1326,136 +1586,6 @@
     "distance": 201.827
   },
   {
-    "name": "TOI-1117 b",
-    "host_star": "TOI-1117",
-    "orbital_period": 2.22816,
-    "radius": 2.46,
-    "mass": 8.9,
-    "equilibrium_temp": 1538.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 273.6020606,
-    "dec": -66.4199742,
-    "distance": 167.598
-  },
-  {
-    "name": "BD+05 4868 A b",
-    "host_star": "BD+05 4868 A",
-    "orbital_period": 1.271869,
-    "radius": null,
-    "mass": 6.2,
-    "equilibrium_temp": 1820.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 326.8614036,
-    "dec": 6.6053185,
-    "distance": 43.5687
-  },
-  {
-    "name": "KMT-2021-BLG-0736L b",
-    "host_star": "KMT-2021-BLG-0736L",
-    "orbital_period": null,
-    "radius": null,
-    "mass": 21.0,
-    "equilibrium_temp": null,
-    "discovery_year": 2025,
-    "discovery_method": "Microlensing",
-    "ra": 268.3225833,
-    "dec": -29.7124194,
-    "distance": 7000.0
-  },
-  {
-    "name": "TOI-5143 c",
-    "host_star": "TOI-5143",
-    "orbital_period": 5.2097118,
-    "radius": 16.25302201,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 165.3651202,
-    "dec": 5.1394812,
-    "distance": 181.38
-  },
-  {
-    "name": "OGLE-2016-BLG-0007L b",
-    "host_star": "OGLE-2016-BLG-0007L",
-    "orbital_period": 14200.0,
-    "radius": null,
-    "mass": 1.32,
-    "equilibrium_temp": null,
-    "discovery_year": 2025,
-    "discovery_method": "Microlensing",
-    "ra": 268.3560417,
-    "dec": -29.64225,
-    "distance": 4300.0
-  },
-  {
-    "name": "WASP-102 b",
-    "host_star": "WASP-102",
-    "orbital_period": 2.709813,
-    "radius": 14.90794433,
-    "mass": 197.68926915,
-    "equilibrium_temp": 1671.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 336.4643016,
-    "dec": 15.8566392,
-    "distance": 535.689
-  },
-  {
-    "name": "KMT-2019-BLG-0578L b",
-    "host_star": "KMT-2019-BLG-0578L",
-    "orbital_period": null,
-    "radius": null,
-    "mass": 381.3940884,
-    "equilibrium_temp": null,
-    "discovery_year": 2025,
-    "discovery_method": "Microlensing",
-    "ra": 269.4846667,
-    "dec": -27.7948611,
-    "distance": 7300.0
-  },
-  {
-    "name": "Gl 410 b",
-    "host_star": "Gl 410",
-    "orbital_period": 6.02,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2025,
-    "discovery_method": "Radial Velocity",
-    "ra": 165.6604212,
-    "dec": 21.9669164,
-    "distance": 11.9324
-  },
-  {
-    "name": "TOI-6478 b",
-    "host_star": "TOI-6478",
-    "orbital_period": 34.005019,
-    "radius": 4.6,
-    "mass": null,
-    "equilibrium_temp": 204.4,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 149.9918059,
-    "dec": -16.1597935,
-    "distance": 38.6057
-  },
-  {
-    "name": "TOI-6628 b",
-    "host_star": "TOI-6628",
-    "orbital_period": 18.18424,
-    "radius": 10.98480109,
-    "mass": 235.19302118,
-    "equilibrium_temp": 833.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 225.8370504,
-    "dec": -35.2305793,
-    "distance": 320.527
-  },
-  {
     "name": "K2-157 c",
     "host_star": "K2-157",
     "orbital_period": 25.942,
@@ -1573,6 +1703,45 @@
     "distance": 134.907
   },
   {
+    "name": "AU Mic e",
+    "host_star": "AU Mic",
+    "orbital_period": 33.11,
+    "radius": null,
+    "mass": 21.1,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Radial Velocity",
+    "ra": 311.2911369,
+    "dec": -31.34245,
+    "distance": 9.7221
+  },
+  {
+    "name": "KMT-2024-BLG-0404L b",
+    "host_star": "KMT-2024-BLG-0404L",
+    "orbital_period": null,
+    "radius": null,
+    "mass": 8657.64580668,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Microlensing",
+    "ra": 271.1470833,
+    "dec": -27.9535,
+    "distance": 7210.0
+  },
+  {
+    "name": "KMT-2024-BLG-0404L c",
+    "host_star": "KMT-2024-BLG-0404L",
+    "orbital_period": null,
+    "radius": null,
+    "mass": 17.3,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Microlensing",
+    "ra": 271.1470833,
+    "dec": -27.9535,
+    "distance": 7210.0
+  },
+  {
     "name": "TOI-6038 A b",
     "host_star": "TOI-6038 A",
     "orbital_period": 5.8267311,
@@ -1597,6 +1766,58 @@
     "ra": 6.5293373,
     "dec": 14.3364283,
     "distance": 476.899
+  },
+  {
+    "name": "TOI-1203 b",
+    "host_star": "TOI-1203",
+    "orbital_period": 4.1572888,
+    "radius": 1.52,
+    "mass": 3.51,
+    "equilibrium_temp": 1361.2,
+    "discovery_year": 2025,
+    "discovery_method": "Radial Velocity",
+    "ra": 168.2267358,
+    "dec": -34.4069371,
+    "distance": 64.9943
+  },
+  {
+    "name": "TOI-1203 c",
+    "host_star": "TOI-1203",
+    "orbital_period": 13.0766,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Radial Velocity",
+    "ra": 168.2267358,
+    "dec": -34.4069371,
+    "distance": 64.9943
+  },
+  {
+    "name": "TOI-1203 d",
+    "host_star": "TOI-1203",
+    "orbital_period": 25.502672,
+    "radius": 2.918,
+    "mass": 7.39,
+    "equilibrium_temp": 743.6,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 168.2267358,
+    "dec": -34.4069371,
+    "distance": 64.9943
+  },
+  {
+    "name": "TOI-1203 e",
+    "host_star": "TOI-1203",
+    "orbital_period": 204.59,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2025,
+    "discovery_method": "Radial Velocity",
+    "ra": 168.2267358,
+    "dec": -34.4069371,
+    "distance": 64.9943
   },
   {
     "name": "TOI-2141 c",
@@ -1870,6 +2091,45 @@
     "ra": 209.5063762,
     "dec": 31.6954898,
     "distance": 73.4829
+  },
+  {
+    "name": "TOI-1743 b",
+    "host_star": "TOI-1743",
+    "orbital_period": 4.266046,
+    "radius": 1.83,
+    "mass": null,
+    "equilibrium_temp": 485.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 257.7473322,
+    "dec": 71.8722039,
+    "distance": 41.2758
+  },
+  {
+    "name": "TOI-5799 c",
+    "host_star": "TOI-5799",
+    "orbital_period": 14.010449,
+    "radius": 1.76,
+    "mass": null,
+    "equilibrium_temp": 337.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 301.630179,
+    "dec": 15.9891418,
+    "distance": 27.8123
+  },
+  {
+    "name": "TOI-6223 b",
+    "host_star": "TOI-6223",
+    "orbital_period": 3.855219,
+    "radius": 5.07,
+    "mass": null,
+    "equilibrium_temp": 714.0,
+    "discovery_year": 2025,
+    "discovery_method": "Transit",
+    "ra": 355.9505977,
+    "dec": 33.0672361,
+    "distance": 133.122
   },
   {
     "name": "TOI-1117 c",
@@ -2158,136 +2418,6 @@
     "distance": 41.9091
   },
   {
-    "name": "TOI-3877 b",
-    "host_star": "TOI-3877",
-    "orbital_period": 4.123596,
-    "radius": 11.67975789,
-    "mass": 99.7981198,
-    "equilibrium_temp": 1445.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 170.4544727,
-    "dec": 33.9913822,
-    "distance": 493.77
-  },
-  {
-    "name": "TOI-4961 b",
-    "host_star": "TOI-4961",
-    "orbital_period": 7.479182,
-    "radius": 12.34108775,
-    "mass": 572.0911326,
-    "equilibrium_temp": 919.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 192.5018624,
-    "dec": -59.8919345,
-    "distance": 213.073
-  },
-  {
-    "name": "TOI-3464 b",
-    "host_star": "TOI-3464",
-    "orbital_period": 3.6515568,
-    "radius": 13.7646283,
-    "mass": 397.28550875,
-    "equilibrium_temp": 1693.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 234.4830357,
-    "dec": -44.7899772,
-    "distance": 597.774
-  },
-  {
-    "name": "TOI-5592 b",
-    "host_star": "TOI-5592",
-    "orbital_period": 2.6085846,
-    "radius": 17.14974047,
-    "mass": 285.72773789,
-    "equilibrium_temp": 1789.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 106.6800684,
-    "dec": 65.857249,
-    "distance": 597.026
-  },
-  {
-    "name": "TOI-4734 b",
-    "host_star": "TOI-4734",
-    "orbital_period": 6.235633,
-    "radius": 10.9175472,
-    "mass": 61.65871096,
-    "equilibrium_temp": 1468.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 90.3581219,
-    "dec": 12.5478825,
-    "distance": 563.068
-  },
-  {
-    "name": "TOI-2986 b",
-    "host_star": "TOI-2986",
-    "orbital_period": 3.2783662,
-    "radius": 9.292245,
-    "mass": 96.61983573,
-    "equilibrium_temp": 1622.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 163.7715605,
-    "dec": -6.4784524,
-    "distance": 563.149
-  },
-  {
-    "name": "TOI-4794 b",
-    "host_star": "TOI-4794",
-    "orbital_period": 3.5658116,
-    "radius": 14.35870428,
-    "mass": 308.29355479,
-    "equilibrium_temp": 1673.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 110.4835517,
-    "dec": -12.5654781,
-    "distance": 543.008
-  },
-  {
-    "name": "TOI-2005 b",
-    "host_star": "TOI-2005",
-    "orbital_period": 17.305904,
-    "radius": 11.99360935,
-    "mass": 2034.1018048,
-    "equilibrium_temp": null,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 164.031654,
-    "dec": -43.3766967,
-    "distance": 328.475
-  },
-  {
-    "name": "TOI-5340 b",
-    "host_star": "TOI-5340",
-    "orbital_period": 4.9394392,
-    "radius": 15.07607904,
-    "mass": 270.15414595,
-    "equilibrium_temp": 1566.0,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 59.3094816,
-    "dec": 22.3783373,
-    "distance": 532.629
-  },
-  {
-    "name": "TOI-1453 c",
-    "host_star": "TOI-1453",
-    "orbital_period": 6.5886982,
-    "radius": 2.224,
-    "mass": 2.95,
-    "equilibrium_temp": 819.8,
-    "discovery_year": 2025,
-    "discovery_method": "Transit",
-    "ra": 258.2232705,
-    "dec": 57.1977779,
-    "distance": 78.7415
-  },
-  {
     "name": "KMT-2017-BLG-2331L b",
     "host_star": "KMT-2017-BLG-2331L",
     "orbital_period": null,
@@ -2338,6 +2468,19 @@
     "ra": 261.366,
     "dec": -29.0584694,
     "distance": 6980.0
+  },
+  {
+    "name": "TOI-1723 b",
+    "host_star": "TOI-1723",
+    "orbital_period": 13.727012643,
+    "radius": 3.435,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2024,
+    "discovery_method": "Transit",
+    "ra": 116.7971978,
+    "dec": 68.4766845,
+    "distance": 100.727
   },
   {
     "name": "TOI-1772.01",
@@ -2559,19 +2702,6 @@
     "ra": 266.9231001,
     "dec": 47.7050486,
     "distance": 226.318
-  },
-  {
-    "name": "TOI-5799 b",
-    "host_star": "TOI-5799",
-    "orbital_period": 4.164663198,
-    "radius": 1.858,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2024,
-    "discovery_method": "Transit",
-    "ra": 301.630179,
-    "dec": 15.9891418,
-    "distance": 27.8123
   },
   {
     "name": "IRAS 04125+2902 b",
@@ -3170,6 +3300,19 @@
     "ra": 217.6091998,
     "dec": -46.159516,
     "distance": 122.91
+  },
+  {
+    "name": "TOI-286 b",
+    "host_star": "TOI-286",
+    "orbital_period": 4.5117244,
+    "radius": 1.42,
+    "mass": 4.53,
+    "equilibrium_temp": 979.0,
+    "discovery_year": 2024,
+    "discovery_method": "Transit",
+    "ra": 90.9842762,
+    "dec": -60.6663348,
+    "distance": 59.2293
   },
   {
     "name": "HD 73344 b",
@@ -3991,17 +4134,17 @@
     "distance": 111.445
   },
   {
-    "name": "TOI-1723 b",
-    "host_star": "TOI-1723",
-    "orbital_period": 13.727012643,
-    "radius": 3.435,
-    "mass": null,
+    "name": "HD 222237 b",
+    "host_star": "HD 222237",
+    "orbital_period": 14892.0,
+    "radius": null,
+    "mass": 1649.52943233,
     "equilibrium_temp": null,
     "discovery_year": 2024,
-    "discovery_method": "Transit",
-    "ra": 116.7971978,
-    "dec": 68.4766845,
-    "distance": 100.727
+    "discovery_method": "Radial Velocity",
+    "ra": 354.9078642,
+    "dec": -72.7253271,
+    "distance": 11.4469
   },
   {
     "name": "TOI-1806.01",
@@ -4823,19 +4966,6 @@
     "distance": 936.341
   },
   {
-    "name": "TOI-286 b",
-    "host_star": "TOI-286",
-    "orbital_period": 4.5117244,
-    "radius": 1.42,
-    "mass": 4.53,
-    "equilibrium_temp": 979.0,
-    "discovery_year": 2024,
-    "discovery_method": "Transit",
-    "ra": 90.9842762,
-    "dec": -60.6663348,
-    "distance": 59.2293
-  },
-  {
     "name": "HD 134606 d",
     "host_star": "HD 134606",
     "orbital_period": 966.5,
@@ -5146,6 +5276,19 @@
     "ra": 105.0833291,
     "dec": 56.8241941,
     "distance": 104.158
+  },
+  {
+    "name": "TOI-5799 b",
+    "host_star": "TOI-5799",
+    "orbital_period": 4.164507,
+    "radius": 1.733,
+    "mass": null,
+    "equilibrium_temp": 505.0,
+    "discovery_year": 2024,
+    "discovery_method": "Transit",
+    "ra": 301.630179,
+    "dec": 15.9891418,
+    "distance": 27.8123
   },
   {
     "name": "TIC 393818343 b",
@@ -5653,19 +5796,6 @@
     "ra": 164.7772913,
     "dec": 40.9837182,
     "distance": 44.647
-  },
-  {
-    "name": "HD 222237 b",
-    "host_star": "HD 222237",
-    "orbital_period": 14892.0,
-    "radius": null,
-    "mass": 1649.52943233,
-    "equilibrium_temp": null,
-    "discovery_year": 2024,
-    "discovery_method": "Radial Velocity",
-    "ra": 354.9078642,
-    "dec": -72.7253271,
-    "distance": 11.4469
   },
   {
     "name": "TOI-5704 b",
@@ -6552,6 +6682,19 @@
     "distance": 27.5024
   },
   {
+    "name": "Kepler-1814 c",
+    "host_star": "Kepler-1814",
+    "orbital_period": 0.626281766,
+    "radius": 1.76,
+    "mass": null,
+    "equilibrium_temp": 1711.0,
+    "discovery_year": 2023,
+    "discovery_method": "Transit",
+    "ra": 285.2166767,
+    "dec": 41.2824449,
+    "distance": 726.346
+  },
+  {
     "name": "HD 74698 b",
     "host_star": "HD 74698",
     "orbital_period": 15.017,
@@ -6771,19 +6914,6 @@
     "ra": 234.5723244,
     "dec": -80.8034265,
     "distance": 65.1769
-  },
-  {
-    "name": "TOI-2000 c",
-    "host_star": "TOI-2000",
-    "orbital_period": 9.127055,
-    "radius": 8.14,
-    "mass": 81.7,
-    "equilibrium_temp": 1038.0,
-    "discovery_year": 2023,
-    "discovery_method": "Transit",
-    "ra": 146.3970631,
-    "dec": -66.6866307,
-    "distance": 175.713
   },
   {
     "name": "HIP 9618 c",
@@ -7384,6 +7514,32 @@
     "distance": 108.883
   },
   {
+    "name": "Wolf 1069 b",
+    "host_star": "Wolf 1069",
+    "orbital_period": 15.564,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": 250.1,
+    "discovery_year": 2023,
+    "discovery_method": "Radial Velocity",
+    "ra": 306.5242477,
+    "dec": 58.5753044,
+    "distance": 9.58341
+  },
+  {
+    "name": "rho CrB e",
+    "host_star": "rho CrB",
+    "orbital_period": 12.949,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2023,
+    "discovery_method": "Radial Velocity",
+    "ra": 240.2600639,
+    "dec": 33.3001861,
+    "distance": 17.4671
+  },
+  {
     "name": "TOI-139 b",
     "host_star": "TOI-139",
     "orbital_period": 11.07085,
@@ -7707,19 +7863,6 @@
     "ra": 255.8503747,
     "dec": 51.4089795,
     "distance": 9.9105
-  },
-  {
-    "name": "AU Mic d",
-    "host_star": "AU Mic",
-    "orbital_period": 12.73596,
-    "radius": null,
-    "mass": 1.053,
-    "equilibrium_temp": null,
-    "discovery_year": 2023,
-    "discovery_method": "Transit Timing Variations",
-    "ra": 311.2911369,
-    "dec": -31.34245,
-    "distance": 9.7221
   },
   {
     "name": "Kepler-1992 b",
@@ -8203,17 +8346,30 @@
     "distance": 6480.0
   },
   {
-    "name": "Kepler-1814 c",
-    "host_star": "Kepler-1814",
-    "orbital_period": 0.626281766,
-    "radius": 1.76,
+    "name": "Kepler-1996 b",
+    "host_star": "Kepler-1996",
+    "orbital_period": 32.376183,
+    "radius": 2.26,
     "mass": null,
-    "equilibrium_temp": 1711.0,
+    "equilibrium_temp": 392.0,
     "discovery_year": 2023,
     "discovery_method": "Transit",
-    "ra": 285.2166767,
-    "dec": 41.2824449,
-    "distance": 726.346
+    "ra": 285.2537555,
+    "dec": 46.5822183,
+    "distance": 440.561
+  },
+  {
+    "name": "TOI-4010 c",
+    "host_star": "TOI-4010",
+    "orbital_period": 5.414654,
+    "radius": 5.93,
+    "mass": 20.31,
+    "equilibrium_temp": 907.0,
+    "discovery_year": 2023,
+    "discovery_method": "Transit",
+    "ra": 20.2148196,
+    "dec": 66.0722009,
+    "distance": 177.504
   },
   {
     "name": "TOI-2583 A b",
@@ -9022,32 +9178,6 @@
     "distance": 935.191
   },
   {
-    "name": "Wolf 1069 b",
-    "host_star": "Wolf 1069",
-    "orbital_period": 15.564,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": 250.1,
-    "discovery_year": 2023,
-    "discovery_method": "Radial Velocity",
-    "ra": 306.5242477,
-    "dec": 58.5753044,
-    "distance": 9.58341
-  },
-  {
-    "name": "rho CrB e",
-    "host_star": "rho CrB",
-    "orbital_period": 12.949,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2023,
-    "discovery_method": "Radial Velocity",
-    "ra": 240.2600639,
-    "dec": 33.3001861,
-    "distance": 17.4671
-  },
-  {
     "name": "KOI-2513.01",
     "host_star": "KOI-2513",
     "orbital_period": 19.00547,
@@ -9178,6 +9308,19 @@
     "distance": 928.989
   },
   {
+    "name": "AU Mic d",
+    "host_star": "AU Mic",
+    "orbital_period": 12.73596,
+    "radius": null,
+    "mass": 1.053,
+    "equilibrium_temp": null,
+    "discovery_year": 2023,
+    "discovery_method": "Transit Timing Variations",
+    "ra": 311.2911369,
+    "dec": -31.34245,
+    "distance": 9.7221
+  },
+  {
     "name": "TOI-1408 b",
     "host_star": "TOI-1408",
     "orbital_period": 4.42587,
@@ -9189,6 +9332,32 @@
     "ra": 313.5110469,
     "dec": 72.5806455,
     "distance": 139.484
+  },
+  {
+    "name": "TOI-2000 b",
+    "host_star": "TOI-2000",
+    "orbital_period": 3.09833,
+    "radius": 2.7,
+    "mass": 11.0,
+    "equilibrium_temp": 1488.0,
+    "discovery_year": 2023,
+    "discovery_method": "Transit",
+    "ra": 146.3970631,
+    "dec": -66.6866307,
+    "distance": 175.713
+  },
+  {
+    "name": "TOI-2000 c",
+    "host_star": "TOI-2000",
+    "orbital_period": 9.127055,
+    "radius": 8.14,
+    "mass": 81.7,
+    "equilibrium_temp": 1038.0,
+    "discovery_year": 2023,
+    "discovery_method": "Transit",
+    "ra": 146.3970631,
+    "dec": -66.6866307,
+    "distance": 175.713
   },
   {
     "name": "Kepler-10 d",
@@ -9581,19 +9750,6 @@
     "distance": 455.82
   },
   {
-    "name": "TOI-2000 b",
-    "host_star": "TOI-2000",
-    "orbital_period": 3.09833,
-    "radius": 2.7,
-    "mass": 11.0,
-    "equilibrium_temp": 1488.0,
-    "discovery_year": 2023,
-    "discovery_method": "Transit",
-    "ra": 146.3970631,
-    "dec": -66.6866307,
-    "distance": 175.713
-  },
-  {
     "name": "TOI-700 e",
     "host_star": "TOI-700",
     "orbital_period": 27.80978,
@@ -9852,32 +10008,6 @@
     "ra": 151.6597827,
     "dec": 18.6340631,
     "distance": 160.414
-  },
-  {
-    "name": "Kepler-1996 b",
-    "host_star": "Kepler-1996",
-    "orbital_period": 32.376183,
-    "radius": 2.26,
-    "mass": null,
-    "equilibrium_temp": 392.0,
-    "discovery_year": 2023,
-    "discovery_method": "Transit",
-    "ra": 285.2537555,
-    "dec": 46.5822183,
-    "distance": 440.561
-  },
-  {
-    "name": "TOI-4010 c",
-    "host_star": "TOI-4010",
-    "orbital_period": 5.414654,
-    "radius": 5.93,
-    "mass": 20.31,
-    "equilibrium_temp": 907.0,
-    "discovery_year": 2023,
-    "discovery_method": "Transit",
-    "ra": 20.2148196,
-    "dec": 66.0722009,
-    "distance": 177.504
   },
   {
     "name": "HD 97037 b",
@@ -14677,19 +14807,6 @@
     "distance": 314.35
   },
   {
-    "name": "Kepler-1858 b",
-    "host_star": "Kepler-1858",
-    "orbital_period": 88.07160187,
-    "radius": 2.42168247,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2021,
-    "discovery_method": "Transit",
-    "ra": 292.3074315,
-    "dec": 46.626579,
-    "distance": 833.055
-  },
-  {
     "name": "Kepler-1812 b",
     "host_star": "Kepler-1812",
     "orbital_period": 7.165219784,
@@ -15234,19 +15351,6 @@
     "ra": 294.9805416,
     "dec": 44.4252384,
     "distance": 842.492
-  },
-  {
-    "name": "HD 95544 b",
-    "host_star": "HD 95544",
-    "orbital_period": 2041.54152,
-    "radius": null,
-    "mass": 1913.64483855,
-    "equilibrium_temp": null,
-    "discovery_year": 2021,
-    "discovery_method": "Radial Velocity",
-    "ra": 166.3231784,
-    "dec": 81.0389868,
-    "distance": 87.8049
   },
   {
     "name": "TOI-1062 b",
@@ -16068,17 +16172,17 @@
     "distance": 106.307
   },
   {
-    "name": "HD 13808 c",
-    "host_star": "HD 13808",
-    "orbital_period": 53.753,
-    "radius": null,
+    "name": "Kepler-1858 b",
+    "host_star": "Kepler-1858",
+    "orbital_period": 88.07160187,
+    "radius": 2.42168247,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2021,
-    "discovery_method": "Radial Velocity",
-    "ra": 33.1780708,
-    "dec": -53.7437591,
-    "distance": 28.2305
+    "discovery_method": "Transit",
+    "ra": 292.3074315,
+    "dec": 46.626579,
+    "distance": 833.055
   },
   {
     "name": "Kepler-1747 b",
@@ -16900,17 +17004,17 @@
     "distance": 41.9091
   },
   {
-    "name": "Kepler-1764 b",
-    "host_star": "Kepler-1764",
-    "orbital_period": 70.46829987,
-    "radius": 4.55527871,
-    "mass": null,
+    "name": "HD 95544 b",
+    "host_star": "HD 95544",
+    "orbital_period": 2041.54152,
+    "radius": null,
+    "mass": 1913.64483855,
     "equilibrium_temp": null,
     "discovery_year": 2021,
-    "discovery_method": "Transit",
-    "ra": 293.8799047,
-    "dec": 41.3938374,
-    "distance": 1542.48
+    "discovery_method": "Radial Velocity",
+    "ra": 166.3231784,
+    "dec": 81.0389868,
+    "distance": 87.8049
   },
   {
     "name": "K2-337 b",
@@ -17732,6 +17836,19 @@
     "distance": 57.7911
   },
   {
+    "name": "HD 13808 c",
+    "host_star": "HD 13808",
+    "orbital_period": 53.753,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2021,
+    "discovery_method": "Radial Velocity",
+    "ra": 33.1780708,
+    "dec": -53.7437591,
+    "distance": 28.2305
+  },
+  {
     "name": "Kepler-1712 b",
     "host_star": "Kepler-1712",
     "orbital_period": 13.81499958,
@@ -17847,19 +17964,6 @@
     "ra": 291.2544229,
     "dec": 36.7434302,
     "distance": 169.948
-  },
-  {
-    "name": "AU Mic c",
-    "host_star": "AU Mic",
-    "orbital_period": 18.85969,
-    "radius": 2.52202066,
-    "mass": null,
-    "equilibrium_temp": 459.0,
-    "discovery_year": 2021,
-    "discovery_method": "Transit",
-    "ra": 311.2911369,
-    "dec": -31.34245,
-    "distance": 9.7221
   },
   {
     "name": "Kepler-1862 b",
@@ -18562,6 +18666,19 @@
     "ra": 292.3303706,
     "dec": 37.9970696,
     "distance": 1344.29
+  },
+  {
+    "name": "Kepler-1764 b",
+    "host_star": "Kepler-1764",
+    "orbital_period": 70.46829987,
+    "radius": 4.55527871,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2021,
+    "discovery_method": "Transit",
+    "ra": 293.8799047,
+    "dec": 41.3938374,
+    "distance": 1542.48
   },
   {
     "name": "HIP 97166 c",
@@ -20228,6 +20345,19 @@
     "distance": 1056.88
   },
   {
+    "name": "Kepler-1719 b",
+    "host_star": "Kepler-1719",
+    "orbital_period": 6.149559975,
+    "radius": 3.95000623,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2021,
+    "discovery_method": "Transit",
+    "ra": 284.7068546,
+    "dec": 38.9367566,
+    "distance": 905.406
+  },
+  {
     "name": "TOI-1062 c",
     "host_star": "TOI-1062",
     "orbital_period": 7.972,
@@ -20733,19 +20863,6 @@
     "ra": 32.9470485,
     "dec": 45.9242187,
     "distance": 53.622
-  },
-  {
-    "name": "YSES 2 b",
-    "host_star": "YSES 2",
-    "orbital_period": null,
-    "radius": null,
-    "mass": 2002.3189641,
-    "equilibrium_temp": null,
-    "discovery_year": 2021,
-    "discovery_method": "Imaging",
-    "ra": 171.9802779,
-    "dec": -66.4345736,
-    "distance": 109.406
   },
   {
     "name": "TOI-431 b",
@@ -21359,6 +21476,19 @@
     "distance": 799.699
   },
   {
+    "name": "AU Mic c",
+    "host_star": "AU Mic",
+    "orbital_period": 18.85969,
+    "radius": 2.52202066,
+    "mass": null,
+    "equilibrium_temp": 459.0,
+    "discovery_year": 2021,
+    "discovery_method": "Transit",
+    "ra": 311.2911369,
+    "dec": -31.34245,
+    "distance": 9.7221
+  },
+  {
     "name": "Kepler-324 e",
     "host_star": "Kepler-324",
     "orbital_period": 13.97939968,
@@ -21877,19 +22007,6 @@
     "ra": 287.1428295,
     "dec": 43.6161177,
     "distance": 250.199
-  },
-  {
-    "name": "Kepler-1719 b",
-    "host_star": "Kepler-1719",
-    "orbital_period": 6.149559975,
-    "radius": 3.95000623,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2021,
-    "discovery_method": "Transit",
-    "ra": 284.7068546,
-    "dec": 38.9367566,
-    "distance": 905.406
   },
   {
     "name": "Kepler-1691 b",
@@ -23270,6 +23387,19 @@
     "distance": 136.667
   },
   {
+    "name": "LHS 1815 b",
+    "host_star": "LHS 1815",
+    "orbital_period": 3.814334,
+    "radius": 1.088,
+    "mass": 1.58,
+    "equilibrium_temp": null,
+    "discovery_year": 2020,
+    "discovery_method": "Transit",
+    "ra": 91.0899861,
+    "dec": -55.3115376,
+    "distance": 29.8424
+  },
+  {
     "name": "Kepler-1696 b",
     "host_star": "Kepler-1696",
     "orbital_period": 65.9409,
@@ -23463,19 +23593,6 @@
     "ra": 178.577997,
     "dec": -37.5533568,
     "distance": 27.1701
-  },
-  {
-    "name": "AU Mic b",
-    "host_star": "AU Mic",
-    "orbital_period": 8.46308,
-    "radius": 3.95677019,
-    "mass": null,
-    "equilibrium_temp": 600.0,
-    "discovery_year": 2020,
-    "discovery_method": "Transit",
-    "ra": 311.2911369,
-    "dec": -31.34245,
-    "distance": 9.7221
   },
   {
     "name": "Kepler-783 c",
@@ -24219,6 +24336,19 @@
     "distance": 99.731
   },
   {
+    "name": "AU Mic b",
+    "host_star": "AU Mic",
+    "orbital_period": 8.46308,
+    "radius": 3.95677019,
+    "mass": null,
+    "equilibrium_temp": 600.0,
+    "discovery_year": 2020,
+    "discovery_method": "Transit",
+    "ra": 311.2911369,
+    "dec": -31.34245,
+    "distance": 9.7221
+  },
+  {
     "name": "WASP-148 b",
     "host_star": "WASP-148",
     "orbital_period": 8.803809,
@@ -24919,19 +25049,6 @@
     "ra": 156.6226981,
     "dec": 4.7640203,
     "distance": 123.415
-  },
-  {
-    "name": "LHS 1815 b",
-    "host_star": "LHS 1815",
-    "orbital_period": 3.814334,
-    "radius": 1.088,
-    "mass": 1.58,
-    "equilibrium_temp": null,
-    "discovery_year": 2020,
-    "discovery_method": "Transit",
-    "ra": 91.0899861,
-    "dec": -55.3115376,
-    "distance": 29.8424
   },
   {
     "name": "KMT-2016-BLG-1836L b",
@@ -31876,6 +31993,19 @@
     "distance": 3900.0
   },
   {
+    "name": "HD 111591 b",
+    "host_star": "HD 111591",
+    "orbital_period": 1056.4,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2017,
+    "discovery_method": "Radial Velocity",
+    "ra": 192.5725483,
+    "dec": 22.8631285,
+    "distance": 114.166
+  },
+  {
     "name": "K2-128 b",
     "host_star": "K2-128",
     "orbital_period": 5.675819,
@@ -32004,19 +32134,6 @@
     "ra": 297.7292296,
     "dec": 42.8666919,
     "distance": 134.397
-  },
-  {
-    "name": "Kepler-90 i",
-    "host_star": "KOI-351",
-    "orbital_period": 14.44912,
-    "radius": 1.32,
-    "mass": null,
-    "equilibrium_temp": 709.0,
-    "discovery_year": 2017,
-    "discovery_method": "Transit",
-    "ra": 284.4334642,
-    "dec": 49.3051239,
-    "distance": 848.254
   },
   {
     "name": "MOA-2016-BLG-227L b",
@@ -32864,6 +32981,19 @@
     "distance": 101.632
   },
   {
+    "name": "Kepler-90 i",
+    "host_star": "KOI-351",
+    "orbital_period": 14.44912,
+    "radius": 1.32,
+    "mass": null,
+    "equilibrium_temp": 709.0,
+    "discovery_year": 2017,
+    "discovery_method": "Transit",
+    "ra": 284.4334642,
+    "dec": 49.3051239,
+    "distance": 848.254
+  },
+  {
     "name": "TRAPPIST-1 e",
     "host_star": "TRAPPIST-1",
     "orbital_period": 6.101013,
@@ -33525,19 +33655,6 @@
     "ra": 26.0093029,
     "dec": -15.9337987,
     "distance": 3.60304
-  },
-  {
-    "name": "HD 111591 b",
-    "host_star": "HD 111591",
-    "orbital_period": 1056.4,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2017,
-    "discovery_method": "Radial Velocity",
-    "ra": 192.5725483,
-    "dec": 22.8631285,
-    "distance": 114.166
   },
   {
     "name": "Kepler-751 b",
@@ -34398,6 +34515,19 @@
     "distance": 513.877
   },
   {
+    "name": "K2-19 d",
+    "host_star": "K2-19",
+    "orbital_period": 2.5081,
+    "radius": 1.11,
+    "mass": 10.0,
+    "equilibrium_temp": null,
+    "discovery_year": 2016,
+    "discovery_method": "Transit",
+    "ra": 174.9602543,
+    "dec": 0.603596,
+    "distance": 289.827
+  },
+  {
     "name": "TRAPPIST-1 b",
     "host_star": "TRAPPIST-1",
     "orbital_period": 1.510826,
@@ -34812,19 +34942,6 @@
     "ra": 126.4882114,
     "dec": 11.5110933,
     "distance": 518.625
-  },
-  {
-    "name": "K2-19 d",
-    "host_star": "K2-19",
-    "orbital_period": 2.5081,
-    "radius": 1.11,
-    "mass": 10.0,
-    "equilibrium_temp": null,
-    "discovery_year": 2016,
-    "discovery_method": "Transit",
-    "ra": 174.9602543,
-    "dec": 0.603596,
-    "distance": 289.827
   },
   {
     "name": "Kepler-959 b",
@@ -52988,30 +53105,17 @@
     "distance": 2101.69
   },
   {
-    "name": "Kepler-431 b",
-    "host_star": "Kepler-431",
-    "orbital_period": 6.803,
-    "radius": 0.764,
+    "name": "K2-6 b",
+    "host_star": "K2-6",
+    "orbital_period": 30.94191,
+    "radius": 2.5,
     "mass": null,
-    "equilibrium_temp": 1032.0,
+    "equilibrium_temp": 615.0,
     "discovery_year": 2015,
     "discovery_method": "Transit",
-    "ra": 281.1123072,
-    "dec": 43.2277663,
-    "distance": 486.546
-  },
-  {
-    "name": "HD 1605 b",
-    "host_star": "HD 1605",
-    "orbital_period": 577.2,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2015,
-    "discovery_method": "Radial Velocity",
-    "ra": 5.1317548,
-    "dec": 30.9750611,
-    "distance": 88.8047
+    "ra": 178.1921152,
+    "dec": -1.1984418,
+    "distance": 316.819
   },
   {
     "name": "HD 67087 c",
@@ -53077,6 +53181,19 @@
     "ra": 78.2955912,
     "dec": 33.3179532,
     "distance": 136.681
+  },
+  {
+    "name": "VHS J125601.92-125723.9 b",
+    "host_star": "VHS J125601.92-125723.9",
+    "orbital_period": 5800000.0,
+    "radius": 13.67495645,
+    "mass": 5085.254512,
+    "equilibrium_temp": 1194.0,
+    "discovery_year": 2015,
+    "discovery_method": "Imaging",
+    "ra": 194.008964,
+    "dec": -12.956031,
+    "distance": null
   },
   {
     "name": "HIP 107773 b",
@@ -53183,19 +53300,6 @@
     "distance": 264.78
   },
   {
-    "name": "K2-19 c",
-    "host_star": "K2-19",
-    "orbital_period": 11.8993,
-    "radius": 4.1,
-    "mass": 10.8,
-    "equilibrium_temp": null,
-    "discovery_year": 2015,
-    "discovery_method": "Transit",
-    "ra": 174.9602543,
-    "dec": 0.603596,
-    "distance": 289.827
-  },
-  {
     "name": "HATS-13 b",
     "host_star": "HATS-13",
     "orbital_period": 3.0440499,
@@ -53222,19 +53326,6 @@
     "distance": 143.651
   },
   {
-    "name": "VHS J125601.92-125723.9 b",
-    "host_star": "VHS J125601.92-125723.9",
-    "orbital_period": 5800000.0,
-    "radius": 13.67495645,
-    "mass": 5085.254512,
-    "equilibrium_temp": 1194.0,
-    "discovery_year": 2015,
-    "discovery_method": "Imaging",
-    "ra": 194.008964,
-    "dec": -12.956031,
-    "distance": null
-  },
-  {
     "name": "K2-22 b",
     "host_star": "K2-22",
     "orbital_period": 0.381073,
@@ -53259,6 +53350,32 @@
     "ra": 295.4865821,
     "dec": 51.0135237,
     "distance": 455.982
+  },
+  {
+    "name": "K2-19 b",
+    "host_star": "K2-19",
+    "orbital_period": 7.9222,
+    "radius": 7.0,
+    "mass": 32.4,
+    "equilibrium_temp": null,
+    "discovery_year": 2015,
+    "discovery_method": "Transit",
+    "ra": 174.9602543,
+    "dec": 0.603596,
+    "distance": 289.827
+  },
+  {
+    "name": "K2-19 c",
+    "host_star": "K2-19",
+    "orbital_period": 11.8993,
+    "radius": 4.1,
+    "mass": 10.8,
+    "equilibrium_temp": null,
+    "discovery_year": 2015,
+    "discovery_method": "Transit",
+    "ra": 174.9602543,
+    "dec": 0.603596,
+    "distance": 289.827
   },
   {
     "name": "HD 175607 b",
@@ -53469,19 +53586,6 @@
     "distance": 44.0727
   },
   {
-    "name": "K2-19 b",
-    "host_star": "K2-19",
-    "orbital_period": 7.9222,
-    "radius": 7.0,
-    "mass": 32.4,
-    "equilibrium_temp": null,
-    "discovery_year": 2015,
-    "discovery_method": "Transit",
-    "ra": 174.9602543,
-    "dec": 0.603596,
-    "distance": 289.827
-  },
-  {
     "name": "K2-10 b",
     "host_star": "K2-10",
     "orbital_period": 19.30553,
@@ -53677,6 +53781,32 @@
     "distance": 455.982
   },
   {
+    "name": "K2-16 b",
+    "host_star": "K2-16",
+    "orbital_period": 7.6188,
+    "radius": 2.02,
+    "mass": null,
+    "equilibrium_temp": 658.0,
+    "discovery_year": 2015,
+    "discovery_method": "Transit",
+    "ra": 175.0972238,
+    "dec": 4.5574311,
+    "distance": 334.967
+  },
+  {
+    "name": "LkCa 15 c",
+    "host_star": "LkCa 15",
+    "orbital_period": null,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2015,
+    "discovery_method": "Imaging",
+    "ra": 69.8241791,
+    "dec": 22.3508662,
+    "distance": 158.152
+  },
+  {
     "name": "Kepler-445 b",
     "host_star": "Kepler-445",
     "orbital_period": 2.984151,
@@ -53701,6 +53831,19 @@
     "ra": 289.0860607,
     "dec": 41.5630224,
     "distance": 477.992
+  },
+  {
+    "name": "Wolf 1061 d",
+    "host_star": "Wolf 1061",
+    "orbital_period": 217.21,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2015,
+    "discovery_method": "Radial Velocity",
+    "ra": 247.5748276,
+    "dec": -12.6676866,
+    "distance": 4.30592
   },
   {
     "name": "K2-7 b",
@@ -53755,32 +53898,6 @@
     "distance": 455.982
   },
   {
-    "name": "K2-16 b",
-    "host_star": "K2-16",
-    "orbital_period": 7.6188,
-    "radius": 2.02,
-    "mass": null,
-    "equilibrium_temp": 658.0,
-    "discovery_year": 2015,
-    "discovery_method": "Transit",
-    "ra": 175.0972238,
-    "dec": 4.5574311,
-    "distance": 334.967
-  },
-  {
-    "name": "LkCa 15 c",
-    "host_star": "LkCa 15",
-    "orbital_period": null,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2015,
-    "discovery_method": "Imaging",
-    "ra": 69.8241791,
-    "dec": 22.3508662,
-    "distance": 158.152
-  },
-  {
     "name": "K2-5 c",
     "host_star": "K2-5",
     "orbital_period": 10.93241,
@@ -53833,17 +53950,17 @@
     "distance": 666.802
   },
   {
-    "name": "Wolf 1061 d",
-    "host_star": "Wolf 1061",
-    "orbital_period": 217.21,
-    "radius": null,
-    "mass": null,
+    "name": "2MASS J02192210-3925225 b",
+    "host_star": "2MASS J02192210-3925225",
+    "orbital_period": null,
+    "radius": 16.14096,
+    "mass": 4417.837,
     "equilibrium_temp": null,
     "discovery_year": 2015,
-    "discovery_method": "Radial Velocity",
-    "ra": 247.5748276,
-    "dec": -12.6676866,
-    "distance": 4.30592
+    "discovery_method": "Imaging",
+    "ra": 34.8427046,
+    "dec": -39.4230767,
+    "distance": null
   },
   {
     "name": "2MASS J19383260+4603591 b",
@@ -53924,6 +54041,19 @@
     "distance": 72.2195
   },
   {
+    "name": "Kepler-430 c",
+    "host_star": "Kepler-430",
+    "orbital_period": 110.979,
+    "radius": 1.75,
+    "mass": null,
+    "equilibrium_temp": 458.0,
+    "discovery_year": 2015,
+    "discovery_method": "Transit",
+    "ra": 292.8085984,
+    "dec": 49.5794242,
+    "distance": 917.477
+  },
+  {
     "name": "KELT-8 b",
     "host_star": "KELT-8",
     "orbital_period": 3.24406,
@@ -53948,19 +54078,6 @@
     "ra": 297.4537402,
     "dec": 41.0110188,
     "distance": 399.398
-  },
-  {
-    "name": "2MASS J02192210-3925225 b",
-    "host_star": "2MASS J02192210-3925225",
-    "orbital_period": null,
-    "radius": 16.14096,
-    "mass": 4417.837,
-    "equilibrium_temp": null,
-    "discovery_year": 2015,
-    "discovery_method": "Imaging",
-    "ra": 34.8427046,
-    "dec": -39.4230767,
-    "distance": null
   },
   {
     "name": "Kepler-444 f",
@@ -54015,17 +54132,30 @@
     "distance": 271.103
   },
   {
-    "name": "Kepler-430 c",
-    "host_star": "Kepler-430",
-    "orbital_period": 110.979,
-    "radius": 1.75,
+    "name": "Kepler-431 b",
+    "host_star": "Kepler-431",
+    "orbital_period": 6.803,
+    "radius": 0.764,
     "mass": null,
-    "equilibrium_temp": 458.0,
+    "equilibrium_temp": 1032.0,
     "discovery_year": 2015,
     "discovery_method": "Transit",
-    "ra": 292.8085984,
-    "dec": 49.5794242,
-    "distance": 917.477
+    "ra": 281.1123072,
+    "dec": 43.2277663,
+    "distance": 486.546
+  },
+  {
+    "name": "HD 1605 b",
+    "host_star": "HD 1605",
+    "orbital_period": 577.2,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2015,
+    "discovery_method": "Radial Velocity",
+    "ra": 5.1317548,
+    "dec": 30.9750611,
+    "distance": 88.8047
   },
   {
     "name": "8 UMi b",
@@ -54156,19 +54286,6 @@
     "ra": 271.303917,
     "dec": -27.2932333,
     "distance": 6430.0
-  },
-  {
-    "name": "K2-6 b",
-    "host_star": "K2-6",
-    "orbital_period": 30.94191,
-    "radius": 2.5,
-    "mass": null,
-    "equilibrium_temp": 615.0,
-    "discovery_year": 2015,
-    "discovery_method": "Transit",
-    "ra": 178.1921152,
-    "dec": -1.1984418,
-    "distance": 316.819
   },
   {
     "name": "Kepler-441 b",
@@ -59280,6 +59397,19 @@
     "distance": 693.86
   },
   {
+    "name": "Kepler-388 b",
+    "host_star": "Kepler-388",
+    "orbital_period": 3.173315,
+    "radius": 0.81,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 284.8280577,
+    "dec": 44.6086451,
+    "distance": null
+  },
+  {
     "name": "OGLE-2013-BLG-0341L B b",
     "host_star": "OGLE-2013-BLG-0341L B",
     "orbital_period": null,
@@ -59603,6 +59733,19 @@
     "ra": 291.9259658,
     "dec": 38.0140525,
     "distance": 627.365
+  },
+  {
+    "name": "Kepler-380 c",
+    "host_star": "Kepler-380",
+    "orbital_period": 7.630004,
+    "radius": 1.27,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 282.3947017,
+    "dec": 48.7591334,
+    "distance": 813.713
   },
   {
     "name": "Kepler-323 b",
@@ -60008,17 +60151,30 @@
     "distance": 600.241
   },
   {
-    "name": "Kepler-388 b",
-    "host_star": "Kepler-388",
-    "orbital_period": 3.173315,
-    "radius": 0.81,
-    "mass": null,
+    "name": "Kepler-102 c",
+    "host_star": "Kepler-102",
+    "orbital_period": 7.071392,
+    "radius": 0.567,
+    "mass": 1.7,
+    "equilibrium_temp": 777.0,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 281.4824731,
+    "dec": 47.2078263,
+    "distance": 107.796
+  },
+  {
+    "name": "Kepler-97 b",
+    "host_star": "Kepler-97",
+    "orbital_period": 2.58664,
+    "radius": 1.48,
+    "mass": 3.51,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 284.8280577,
-    "dec": 44.6086451,
-    "distance": null
+    "ra": 287.3265292,
+    "dec": 48.6733443,
+    "distance": 400.907
   },
   {
     "name": "Kepler-346 b",
@@ -60502,17 +60658,30 @@
     "distance": 159.72
   },
   {
-    "name": "Kepler-380 c",
-    "host_star": "Kepler-380",
-    "orbital_period": 7.630004,
-    "radius": 1.27,
+    "name": "Kepler-359 c",
+    "host_star": "Kepler-359",
+    "orbital_period": 57.68802,
+    "radius": 4.3,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 282.3947017,
-    "dec": 48.7591334,
-    "distance": 813.713
+    "ra": 293.2936129,
+    "dec": 42.1963497,
+    "distance": 1443.21
+  },
+  {
+    "name": "Kepler-229 d",
+    "host_star": "Kepler-229",
+    "orbital_period": 41.194912,
+    "radius": 3.85,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 286.9994758,
+    "dec": 48.3757867,
+    "distance": 826.265
   },
   {
     "name": "Kepler-195 b",
@@ -60840,30 +61009,69 @@
     "distance": 652.051
   },
   {
-    "name": "Kepler-102 c",
-    "host_star": "Kepler-102",
-    "orbital_period": 7.071392,
-    "radius": 0.567,
-    "mass": 1.7,
-    "equilibrium_temp": 777.0,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 281.4824731,
-    "dec": 47.2078263,
-    "distance": 107.796
-  },
-  {
-    "name": "Kepler-97 b",
-    "host_star": "Kepler-97",
-    "orbital_period": 2.58664,
-    "radius": 1.48,
-    "mass": 3.51,
+    "name": "Kepler-250 d",
+    "host_star": "Kepler-250",
+    "orbital_period": 17.648312,
+    "radius": 2.18,
+    "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 287.3265292,
-    "dec": 48.6733443,
-    "distance": 400.907
+    "ra": 289.5947633,
+    "dec": 44.1418114,
+    "distance": 760.585
+  },
+  {
+    "name": "Kepler-336 d",
+    "host_star": "Kepler-336",
+    "orbital_period": 20.678772,
+    "radius": 2.37,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 290.2376224,
+    "dec": 41.3313637,
+    "distance": 768.86
+  },
+  {
+    "name": "Kepler-182 b",
+    "host_star": "Kepler-182",
+    "orbital_period": 9.825792,
+    "radius": 2.58,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 289.8301128,
+    "dec": 50.5862025,
+    "distance": 1549.09
+  },
+  {
+    "name": "Kepler-208 d",
+    "host_star": "Kepler-208",
+    "orbital_period": 11.131786,
+    "radius": 1.2,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 293.8901979,
+    "dec": 42.5279413,
+    "distance": 775.328
+  },
+  {
+    "name": "Kepler-326 c",
+    "host_star": "Kepler-326",
+    "orbital_period": 4.580358,
+    "radius": 1.4,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 294.3255898,
+    "dec": 46.0022646,
+    "distance": 487.675
   },
   {
     "name": "Kepler-355 c",
@@ -61256,30 +61464,30 @@
     "distance": 965.56
   },
   {
-    "name": "Kepler-359 c",
-    "host_star": "Kepler-359",
-    "orbital_period": 57.68802,
-    "radius": 4.3,
+    "name": "Kepler-384 b",
+    "host_star": "Kepler-384",
+    "orbital_period": 22.597053,
+    "radius": 1.12,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 293.2936129,
-    "dec": 42.1963497,
-    "distance": 1443.21
+    "ra": 286.0261113,
+    "dec": 44.7828571,
+    "distance": 895.678
   },
   {
-    "name": "Kepler-229 d",
-    "host_star": "Kepler-229",
-    "orbital_period": 41.194912,
-    "radius": 3.85,
+    "name": "Kepler-147 c",
+    "host_star": "Kepler-147",
+    "orbital_period": 33.416423,
+    "radius": 2.43,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 286.9994758,
-    "dec": 48.3757867,
-    "distance": 826.265
+    "ra": 287.9757213,
+    "dec": 39.087168,
+    "distance": 1042.02
   },
   {
     "name": "Kepler-244 c",
@@ -61659,71 +61867,6 @@
     "distance": 177.355
   },
   {
-    "name": "Kepler-250 d",
-    "host_star": "Kepler-250",
-    "orbital_period": 17.648312,
-    "radius": 2.18,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 289.5947633,
-    "dec": 44.1418114,
-    "distance": 760.585
-  },
-  {
-    "name": "Kepler-336 d",
-    "host_star": "Kepler-336",
-    "orbital_period": 20.678772,
-    "radius": 2.37,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 290.2376224,
-    "dec": 41.3313637,
-    "distance": 768.86
-  },
-  {
-    "name": "Kepler-182 b",
-    "host_star": "Kepler-182",
-    "orbital_period": 9.825792,
-    "radius": 2.58,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 289.8301128,
-    "dec": 50.5862025,
-    "distance": 1549.09
-  },
-  {
-    "name": "Kepler-208 d",
-    "host_star": "Kepler-208",
-    "orbital_period": 11.131786,
-    "radius": 1.2,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 293.8901979,
-    "dec": 42.5279413,
-    "distance": 775.328
-  },
-  {
-    "name": "Kepler-326 c",
-    "host_star": "Kepler-326",
-    "orbital_period": 4.580358,
-    "radius": 1.4,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 294.3255898,
-    "dec": 46.0022646,
-    "distance": 487.675
-  },
-  {
     "name": "Kepler-402 d",
     "host_star": "Kepler-402",
     "orbital_period": 8.921099,
@@ -62088,30 +62231,43 @@
     "distance": 571.034
   },
   {
-    "name": "Kepler-384 b",
-    "host_star": "Kepler-384",
-    "orbital_period": 22.597053,
-    "radius": 1.12,
+    "name": "Kepler-256 b",
+    "host_star": "Kepler-256",
+    "orbital_period": 1.620493,
+    "radius": 1.59,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 286.0261113,
-    "dec": 44.7828571,
-    "distance": 895.678
+    "ra": 292.58042,
+    "dec": 46.0973588,
+    "distance": 1026.43
   },
   {
-    "name": "Kepler-147 c",
-    "host_star": "Kepler-147",
-    "orbital_period": 33.416423,
-    "radius": 2.43,
+    "name": "Kepler-234 c",
+    "host_star": "Kepler-234",
+    "orbital_period": 7.21205,
+    "radius": 3.51,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 287.9757213,
-    "dec": 39.087168,
-    "distance": 1042.02
+    "ra": 291.6535379,
+    "dec": 38.4946597,
+    "distance": 1733.1
+  },
+  {
+    "name": "Kepler-254 b",
+    "host_star": "Kepler-254",
+    "orbital_period": 5.826662,
+    "radius": 3.87,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 288.1646541,
+    "dec": 45.8164257,
+    "distance": 1389.48
   },
   {
     "name": "Kepler-339 d",
@@ -62426,6 +62582,58 @@
     "distance": 32.6081
   },
   {
+    "name": "Kepler-355 b",
+    "host_star": "Kepler-355",
+    "orbital_period": 11.03189,
+    "radius": 1.46,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 285.7994917,
+    "dec": 42.8117427,
+    "distance": 1432.17
+  },
+  {
+    "name": "Kepler-142 d",
+    "host_star": "Kepler-142",
+    "orbital_period": 41.809118,
+    "radius": 2.16,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 295.1190067,
+    "dec": 48.4813635,
+    "distance": 548.686
+  },
+  {
+    "name": "Kepler-321 b",
+    "host_star": "Kepler-321",
+    "orbital_period": 4.915379,
+    "radius": 1.77,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 294.4536991,
+    "dec": 44.1457626,
+    "distance": 384.542
+  },
+  {
+    "name": "Kepler-104 c",
+    "host_star": "Kepler-104",
+    "orbital_period": 23.668205,
+    "radius": 3.13,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 287.6046621,
+    "dec": 42.1665104,
+    "distance": 400.785
+  },
+  {
     "name": "Kepler-121 b",
     "host_star": "Kepler-121",
     "orbital_period": 3.177422,
@@ -62738,43 +62946,30 @@
     "distance": 738.792
   },
   {
-    "name": "Kepler-256 b",
-    "host_star": "Kepler-256",
-    "orbital_period": 1.620493,
-    "radius": 1.59,
+    "name": "Kepler-386 b",
+    "host_star": "Kepler-386",
+    "orbital_period": 12.31043,
+    "radius": 1.39,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 292.58042,
-    "dec": 46.0973588,
-    "distance": 1026.43
+    "ra": 289.8589165,
+    "dec": 48.6938077,
+    "distance": 882.462
   },
   {
-    "name": "Kepler-234 c",
-    "host_star": "Kepler-234",
-    "orbital_period": 7.21205,
-    "radius": 3.51,
+    "name": "Kepler-104 b",
+    "host_star": "Kepler-104",
+    "orbital_period": 11.427548,
+    "radius": 3.1,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 291.6535379,
-    "dec": 38.4946597,
-    "distance": 1733.1
-  },
-  {
-    "name": "Kepler-254 b",
-    "host_star": "Kepler-254",
-    "orbital_period": 5.826662,
-    "radius": 3.87,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 288.1646541,
-    "dec": 45.8164257,
-    "distance": 1389.48
+    "ra": 287.6046621,
+    "dec": 42.1665104,
+    "distance": 400.785
   },
   {
     "name": "Kepler-191 b",
@@ -63063,56 +63258,56 @@
     "distance": 316.678
   },
   {
-    "name": "Kepler-355 b",
-    "host_star": "Kepler-355",
-    "orbital_period": 11.03189,
-    "radius": 1.46,
+    "name": "Kepler-416 c",
+    "host_star": "Kepler-416",
+    "orbital_period": 12.209,
+    "radius": null,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 285.7994917,
-    "dec": 42.8117427,
-    "distance": 1432.17
+    "discovery_method": "Transit Timing Variations",
+    "ra": 291.5569554,
+    "dec": 39.2272923,
+    "distance": 690.819
   },
   {
-    "name": "Kepler-142 d",
-    "host_star": "Kepler-142",
-    "orbital_period": 41.809118,
-    "radius": 2.16,
+    "name": "Kepler-291 c",
+    "host_star": "Kepler-291",
+    "orbital_period": 5.700786,
+    "radius": 1.88,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 295.1190067,
-    "dec": 48.4813635,
-    "distance": 548.686
+    "ra": 287.9163029,
+    "dec": 42.4372666,
+    "distance": 1786.48
   },
   {
-    "name": "Kepler-321 b",
-    "host_star": "Kepler-321",
-    "orbital_period": 4.915379,
-    "radius": 1.77,
+    "name": "Kepler-354 c",
+    "host_star": "Kepler-354",
+    "orbital_period": 16.934402,
+    "radius": 1.31,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 294.4536991,
-    "dec": 44.1457626,
-    "distance": 384.542
+    "ra": 285.7515347,
+    "dec": 41.3356739,
+    "distance": 554.064
   },
   {
-    "name": "Kepler-104 c",
-    "host_star": "Kepler-104",
-    "orbital_period": 23.668205,
-    "radius": 3.13,
+    "name": "Kepler-225 c",
+    "host_star": "Kepler-225",
+    "orbital_period": 18.794234,
+    "radius": 1.84,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 287.6046621,
-    "dec": 42.1665104,
-    "distance": 400.785
+    "ra": 292.1939846,
+    "dec": 47.4570808,
+    "distance": 561.101
   },
   {
     "name": "Kepler-159 c",
@@ -63438,32 +63633,6 @@
     "ra": 296.4985951,
     "dec": 46.5772484,
     "distance": 1009.1
-  },
-  {
-    "name": "Kepler-386 b",
-    "host_star": "Kepler-386",
-    "orbital_period": 12.31043,
-    "radius": 1.39,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 289.8589165,
-    "dec": 48.6938077,
-    "distance": 882.462
-  },
-  {
-    "name": "Kepler-104 b",
-    "host_star": "Kepler-104",
-    "orbital_period": 11.427548,
-    "radius": 3.1,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 287.6046621,
-    "dec": 42.1665104,
-    "distance": 400.785
   },
   {
     "name": "Kepler-345 c",
@@ -63817,56 +63986,69 @@
     "distance": 384.938
   },
   {
-    "name": "Kepler-416 c",
-    "host_star": "Kepler-416",
-    "orbital_period": 12.209,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit Timing Variations",
-    "ra": 291.5569554,
-    "dec": 39.2272923,
-    "distance": 690.819
-  },
-  {
-    "name": "Kepler-291 c",
-    "host_star": "Kepler-291",
-    "orbital_period": 5.700786,
-    "radius": 1.88,
+    "name": "Kepler-251 b",
+    "host_star": "Kepler-251",
+    "orbital_period": 4.790936,
+    "radius": 1.33,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 287.9163029,
-    "dec": 42.4372666,
-    "distance": 1786.48
+    "ra": 296.5662171,
+    "dec": 44.1058077,
+    "distance": 924.625
   },
   {
-    "name": "Kepler-354 c",
-    "host_star": "Kepler-354",
-    "orbital_period": 16.934402,
-    "radius": 1.31,
+    "name": "Kepler-196 c",
+    "host_star": "Kepler-196",
+    "orbital_period": 47.427737,
+    "radius": 2.24,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 285.7515347,
-    "dec": 41.3356739,
-    "distance": 554.064
+    "ra": 284.9685077,
+    "dec": 42.0791214,
+    "distance": 451.312
   },
   {
-    "name": "Kepler-225 c",
-    "host_star": "Kepler-225",
-    "orbital_period": 18.794234,
-    "radius": 1.84,
+    "name": "Kepler-273 c",
+    "host_star": "Kepler-273",
+    "orbital_period": 8.014927,
+    "radius": 1.98,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 292.1939846,
-    "dec": 47.4570808,
-    "distance": 561.101
+    "ra": 291.3021458,
+    "dec": 47.6976573,
+    "distance": 713.964
+  },
+  {
+    "name": "WASP-96 b",
+    "host_star": "WASP-96",
+    "orbital_period": 3.4252602,
+    "radius": 13.45,
+    "mass": 152.55,
+    "equilibrium_temp": 1285.0,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 1.0465696,
+    "dec": -47.3606352,
+    "distance": 352.464
+  },
+  {
+    "name": "Kepler-422 b",
+    "host_star": "Kepler-422",
+    "orbital_period": 7.8914483,
+    "radius": 12.89,
+    "mass": 136.66,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 282.6296334,
+    "dec": 46.3232807,
+    "distance": 722.795
   },
   {
     "name": "Kepler-310 b",
@@ -64192,6 +64374,32 @@
     "ra": 290.8241931,
     "dec": 44.6472832,
     "distance": 634.939
+  },
+  {
+    "name": "Kepler-178 c",
+    "host_star": "Kepler-178",
+    "orbital_period": 20.552802,
+    "radius": 2.88,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 287.1010275,
+    "dec": 46.8964033,
+    "distance": 716.025
+  },
+  {
+    "name": "Kepler-204 c",
+    "host_star": "Kepler-204",
+    "orbital_period": 25.660593,
+    "radius": 1.79,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 285.347162,
+    "dec": 41.761845,
+    "distance": 686.723
   },
   {
     "name": "Kepler-366 c",
@@ -64545,69 +64753,17 @@
     "distance": 1298.88
   },
   {
-    "name": "Kepler-251 b",
-    "host_star": "Kepler-251",
-    "orbital_period": 4.790936,
-    "radius": 1.33,
+    "name": "Kepler-136 b",
+    "host_star": "Kepler-136",
+    "orbital_period": 11.5789,
+    "radius": 2.05,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 296.5662171,
-    "dec": 44.1058077,
-    "distance": 924.625
-  },
-  {
-    "name": "Kepler-196 c",
-    "host_star": "Kepler-196",
-    "orbital_period": 47.427737,
-    "radius": 2.24,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 284.9685077,
-    "dec": 42.0791214,
-    "distance": 451.312
-  },
-  {
-    "name": "Kepler-273 c",
-    "host_star": "Kepler-273",
-    "orbital_period": 8.014927,
-    "radius": 1.98,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 291.3021458,
-    "dec": 47.6976573,
-    "distance": 713.964
-  },
-  {
-    "name": "WASP-96 b",
-    "host_star": "WASP-96",
-    "orbital_period": 3.4252602,
-    "radius": 13.45,
-    "mass": 152.55,
-    "equilibrium_temp": 1285.0,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 1.0465696,
-    "dec": -47.3606352,
-    "distance": 352.464
-  },
-  {
-    "name": "Kepler-422 b",
-    "host_star": "Kepler-422",
-    "orbital_period": 7.8914483,
-    "radius": 12.89,
-    "mass": 136.66,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 282.6296334,
-    "dec": 46.3232807,
-    "distance": 722.795
+    "ra": 296.4673039,
+    "dec": 42.5987984,
+    "distance": 420.818
   },
   {
     "name": "Kepler-315 b",
@@ -65065,30 +65221,69 @@
     "distance": 304.645
   },
   {
-    "name": "Kepler-178 c",
-    "host_star": "Kepler-178",
-    "orbital_period": 20.552802,
-    "radius": 2.88,
+    "name": "Kepler-176 d",
+    "host_star": "Kepler-176",
+    "orbital_period": 25.751974,
+    "radius": 2.51,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 287.1010275,
-    "dec": 46.8964033,
-    "distance": 716.025
+    "ra": 294.6679021,
+    "dec": 43.8532104,
+    "distance": 527.321
   },
   {
-    "name": "Kepler-204 c",
-    "host_star": "Kepler-204",
-    "orbital_period": 25.660593,
-    "radius": 1.79,
+    "name": "Kepler-164 c",
+    "host_star": "Kepler-164",
+    "orbital_period": 10.945723,
+    "radius": 2.73,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2014,
     "discovery_method": "Transit",
-    "ra": 285.347162,
-    "dec": 41.761845,
-    "distance": 686.723
+    "ra": 287.7808115,
+    "dec": 47.6298453,
+    "distance": 890.758
+  },
+  {
+    "name": "Kepler-281 c",
+    "host_star": "Kepler-281",
+    "orbital_period": 36.337373,
+    "radius": 5.31,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 294.1081465,
+    "dec": 44.7706524,
+    "distance": 1745.45
+  },
+  {
+    "name": "Kepler-138 b",
+    "host_star": "Kepler-138",
+    "orbital_period": 10.3134,
+    "radius": 0.64,
+    "mass": 0.07,
+    "equilibrium_temp": 452.0,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 290.3814122,
+    "dec": 43.2930645,
+    "distance": 66.8624
+  },
+  {
+    "name": "Kepler-136 c",
+    "host_star": "Kepler-136",
+    "orbital_period": 16.399235,
+    "radius": 1.99,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2014,
+    "discovery_method": "Transit",
+    "ra": 296.4673039,
+    "dec": 42.5987984,
+    "distance": 420.818
   },
   {
     "name": "Kepler-245 b",
@@ -65427,19 +65622,6 @@
     "ra": 291.6389972,
     "dec": 42.4363482,
     "distance": 861.527
-  },
-  {
-    "name": "Kepler-136 b",
-    "host_star": "Kepler-136",
-    "orbital_period": 11.5789,
-    "radius": 2.05,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 296.4673039,
-    "dec": 42.5987984,
-    "distance": 420.818
   },
   {
     "name": "Kepler-267 d",
@@ -65830,71 +66012,6 @@
     "ra": 291.1118647,
     "dec": 39.9490248,
     "distance": 1027.45
-  },
-  {
-    "name": "Kepler-176 d",
-    "host_star": "Kepler-176",
-    "orbital_period": 25.751974,
-    "radius": 2.51,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 294.6679021,
-    "dec": 43.8532104,
-    "distance": 527.321
-  },
-  {
-    "name": "Kepler-164 c",
-    "host_star": "Kepler-164",
-    "orbital_period": 10.945723,
-    "radius": 2.73,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 287.7808115,
-    "dec": 47.6298453,
-    "distance": 890.758
-  },
-  {
-    "name": "Kepler-281 c",
-    "host_star": "Kepler-281",
-    "orbital_period": 36.337373,
-    "radius": 5.31,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 294.1081465,
-    "dec": 44.7706524,
-    "distance": 1745.45
-  },
-  {
-    "name": "Kepler-138 b",
-    "host_star": "Kepler-138",
-    "orbital_period": 10.3134,
-    "radius": 0.64,
-    "mass": 0.07,
-    "equilibrium_temp": 452.0,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 290.3814122,
-    "dec": 43.2930645,
-    "distance": 66.8624
-  },
-  {
-    "name": "Kepler-136 c",
-    "host_star": "Kepler-136",
-    "orbital_period": 16.399235,
-    "radius": 1.99,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2014,
-    "discovery_method": "Transit",
-    "ra": 296.4673039,
-    "dec": 42.5987984,
-    "distance": 420.818
   },
   {
     "name": "Kepler-175 c",
@@ -66313,19 +66430,6 @@
     "distance": 264.993
   },
   {
-    "name": "Kepler-63 b",
-    "host_star": "Kepler-63",
-    "orbital_period": 9.4341505,
-    "radius": 6.11,
-    "mass": 120.0,
-    "equilibrium_temp": null,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 289.2262876,
-    "dec": 49.5482814,
-    "distance": 194.033
-  },
-  {
     "name": "Kepler-276 c",
     "host_star": "Kepler-276",
     "orbital_period": 31.884,
@@ -66337,19 +66441,6 @@
     "ra": 293.568197,
     "dec": 39.0363123,
     "distance": 1144.86
-  },
-  {
-    "name": "Kepler-114 d",
-    "host_star": "Kepler-114",
-    "orbital_period": 11.776,
-    "radius": 2.53,
-    "mass": 3.9,
-    "equilibrium_temp": null,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 294.121482,
-    "dec": 48.3497977,
-    "distance": 259.533
   },
   {
     "name": "HATS-2 b",
@@ -66443,32 +66534,6 @@
     "distance": 1435.44
   },
   {
-    "name": "Kepler-91 b",
-    "host_star": "Kepler-91",
-    "orbital_period": 6.24658,
-    "radius": 15.322703,
-    "mass": 257.4423,
-    "equilibrium_temp": 2040.0,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 285.6729033,
-    "dec": 44.1167513,
-    "distance": 1294.69
-  },
-  {
-    "name": "Kepler-114 c",
-    "host_star": "Kepler-114",
-    "orbital_period": 8.041,
-    "radius": 1.6,
-    "mass": 2.8,
-    "equilibrium_temp": null,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 294.121482,
-    "dec": 48.3497977,
-    "distance": 259.533
-  },
-  {
     "name": "Kepler-37 c",
     "host_star": "Kepler-37",
     "orbital_period": 21.301848,
@@ -66534,19 +66599,6 @@
     "distance": 294.001
   },
   {
-    "name": "KOI-351 c",
-    "host_star": "KOI-351",
-    "orbital_period": 8.719375,
-    "radius": 1.19,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 284.4334642,
-    "dec": 49.3051239,
-    "distance": 848.254
-  },
-  {
     "name": "Kepler-37 d",
     "host_star": "Kepler-37",
     "orbital_period": 39.7922622,
@@ -66597,19 +66649,6 @@
     "ra": 283.2125621,
     "dec": 45.3496992,
     "distance": 300.874
-  },
-  {
-    "name": "KOI-351 h",
-    "host_star": "KOI-351",
-    "orbital_period": 331.60059,
-    "radius": 11.3,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 284.4334642,
-    "dec": 49.3051239,
-    "distance": 848.254
   },
   {
     "name": "GJ 667 C g",
@@ -66768,6 +66807,19 @@
     "distance": null
   },
   {
+    "name": "Kepler-305 c",
+    "host_star": "Kepler-305",
+    "orbital_period": 8.291,
+    "radius": 3.3,
+    "mass": 6.0,
+    "equilibrium_temp": null,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 299.2242557,
+    "dec": 40.343167,
+    "distance": 868.477
+  },
+  {
     "name": "ome Ser b",
     "host_star": "ome Ser",
     "orbital_period": 278.59,
@@ -66779,19 +66831,6 @@
     "ra": 237.5732422,
     "dec": 2.196304,
     "distance": 76.7556
-  },
-  {
-    "name": "KOI-351 d",
-    "host_star": "KOI-351",
-    "orbital_period": 59.73667,
-    "radius": 2.87,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 284.4334642,
-    "dec": 49.3051239,
-    "distance": 848.254
   },
   {
     "name": "Kepler-62 b",
@@ -66872,17 +66911,17 @@
     "distance": 300.874
   },
   {
-    "name": "Kepler-305 c",
-    "host_star": "Kepler-305",
-    "orbital_period": 8.291,
-    "radius": 3.3,
-    "mass": 6.0,
-    "equilibrium_temp": null,
+    "name": "KOI-94 d",
+    "host_star": "KOI-94",
+    "orbital_period": 22.342989,
+    "radius": 11.27,
+    "mass": 106.0,
+    "equilibrium_temp": 806.0,
     "discovery_year": 2013,
     "discovery_method": "Transit",
-    "ra": 299.2242557,
-    "dec": 40.343167,
-    "distance": 868.477
+    "ra": 297.3330716,
+    "dec": 41.8911186,
+    "distance": 477.052
   },
   {
     "name": "GJ 328 b",
@@ -66935,19 +66974,6 @@
     "ra": 312.4574879,
     "dec": -24.4286938,
     "distance": 411.211
-  },
-  {
-    "name": "KOI-94 d",
-    "host_star": "KOI-94",
-    "orbital_period": 22.342989,
-    "radius": 11.27,
-    "mass": 106.0,
-    "equilibrium_temp": 806.0,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 297.3330716,
-    "dec": 41.8911186,
-    "distance": 477.052
   },
   {
     "name": "KOI-1843.03",
@@ -67080,6 +67106,45 @@
     "distance": 1037.4
   },
   {
+    "name": "KOI-351 d",
+    "host_star": "KOI-351",
+    "orbital_period": 59.73667,
+    "radius": 2.87,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 284.4334642,
+    "dec": 49.3051239,
+    "distance": 848.254
+  },
+  {
+    "name": "KOI-351 g",
+    "host_star": "KOI-351",
+    "orbital_period": 210.73514,
+    "radius": null,
+    "mass": 15.0,
+    "equilibrium_temp": null,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 284.4334642,
+    "dec": 49.3051239,
+    "distance": 848.254
+  },
+  {
+    "name": "KOI-351 h",
+    "host_star": "KOI-351",
+    "orbital_period": 331.60296,
+    "radius": null,
+    "mass": 203.0,
+    "equilibrium_temp": null,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 284.4334642,
+    "dec": 49.3051239,
+    "distance": 848.254
+  },
+  {
     "name": "Kepler-128 c",
     "host_star": "Kepler-128",
     "orbital_period": 22.8,
@@ -67091,6 +67156,58 @@
     "ra": 282.4922622,
     "dec": 43.9802442,
     "distance": 396.379
+  },
+  {
+    "name": "KOI-351 e",
+    "host_star": "KOI-351",
+    "orbital_period": 91.93913,
+    "radius": 2.66,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 284.4334642,
+    "dec": 49.3051239,
+    "distance": 848.254
+  },
+  {
+    "name": "KOI-351 c",
+    "host_star": "KOI-351",
+    "orbital_period": 8.719375,
+    "radius": 1.19,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 284.4334642,
+    "dec": 49.3051239,
+    "distance": 848.254
+  },
+  {
+    "name": "KOI-351 b",
+    "host_star": "KOI-351",
+    "orbital_period": 7.008151,
+    "radius": 1.31,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 284.4334642,
+    "dec": 49.3051239,
+    "distance": 848.254
+  },
+  {
+    "name": "KOI-351 f",
+    "host_star": "KOI-351",
+    "orbital_period": 124.9144,
+    "radius": 2.88,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 284.4334642,
+    "dec": 49.3051239,
+    "distance": 848.254
   },
   {
     "name": "Kepler-61 b",
@@ -67756,19 +67873,6 @@
     "distance": 7560.0
   },
   {
-    "name": "KOI-351 b",
-    "host_star": "KOI-351",
-    "orbital_period": 7.008151,
-    "radius": 1.31,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 284.4334642,
-    "dec": 49.3051239,
-    "distance": 848.254
-  },
-  {
     "name": "OGLE-2012-BLG-0406L b",
     "host_star": "OGLE-2012-BLG-0406L",
     "orbital_period": null,
@@ -67821,6 +67925,19 @@
     "distance": 566.85
   },
   {
+    "name": "Kepler-114 d",
+    "host_star": "Kepler-114",
+    "orbital_period": 11.776,
+    "radius": 2.53,
+    "mass": 3.9,
+    "equilibrium_temp": null,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 294.121482,
+    "dec": 48.3497977,
+    "distance": 259.533
+  },
+  {
     "name": "Kepler-396 c",
     "host_star": "Kepler-396",
     "orbital_period": 88.505,
@@ -67834,17 +67951,30 @@
     "distance": 223.757
   },
   {
-    "name": "KOI-351 g",
-    "host_star": "KOI-351",
-    "orbital_period": 210.60697,
-    "radius": 8.1,
-    "mass": null,
+    "name": "Kepler-91 b",
+    "host_star": "Kepler-91",
+    "orbital_period": 6.24658,
+    "radius": 15.322703,
+    "mass": 257.4423,
+    "equilibrium_temp": 2040.0,
+    "discovery_year": 2013,
+    "discovery_method": "Transit",
+    "ra": 285.6729033,
+    "dec": 44.1167513,
+    "distance": 1294.69
+  },
+  {
+    "name": "Kepler-114 c",
+    "host_star": "Kepler-114",
+    "orbital_period": 8.041,
+    "radius": 1.6,
+    "mass": 2.8,
     "equilibrium_temp": null,
     "discovery_year": 2013,
     "discovery_method": "Transit",
-    "ra": 284.4334642,
-    "dec": 49.3051239,
-    "distance": 848.254
+    "ra": 294.121482,
+    "dec": 48.3497977,
+    "distance": 259.533
   },
   {
     "name": "Kepler-87 b",
@@ -67899,19 +68029,6 @@
     "distance": 956.859
   },
   {
-    "name": "KOI-351 f",
-    "host_star": "KOI-351",
-    "orbital_period": 124.9144,
-    "radius": 2.88,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2013,
-    "discovery_method": "Transit",
-    "ra": 284.4334642,
-    "dec": 49.3051239,
-    "distance": 848.254
-  },
-  {
     "name": "Kepler-238 e",
     "host_star": "Kepler-238",
     "orbital_period": 23.654,
@@ -67964,17 +68081,56 @@
     "distance": 575.581
   },
   {
-    "name": "KOI-351 e",
-    "host_star": "KOI-351",
-    "orbital_period": 91.93913,
-    "radius": 2.66,
-    "mass": null,
+    "name": "Kepler-63 b",
+    "host_star": "Kepler-63",
+    "orbital_period": 9.4341505,
+    "radius": 6.11,
+    "mass": 120.0,
     "equilibrium_temp": null,
     "discovery_year": 2013,
     "discovery_method": "Transit",
-    "ra": 284.4334642,
-    "dec": 49.3051239,
-    "distance": 848.254
+    "ra": 289.2262876,
+    "dec": 49.5482814,
+    "distance": 194.033
+  },
+  {
+    "name": "Kepler-57 c",
+    "host_star": "Kepler-57",
+    "orbital_period": 11.6,
+    "radius": 2.196,
+    "mass": 6.86,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 293.6413146,
+    "dec": 44.6570692,
+    "distance": 644.14
+  },
+  {
+    "name": "WASP-47 b",
+    "host_star": "WASP-47",
+    "orbital_period": 4.159151,
+    "radius": 12.86,
+    "mass": 374.0,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 331.203092,
+    "dec": -12.019067,
+    "distance": 264.78
+  },
+  {
+    "name": "Kepler-48 b",
+    "host_star": "Kepler-48",
+    "orbital_period": 4.778,
+    "radius": 1.88,
+    "mass": 3.94,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 299.1393094,
+    "dec": 40.948939,
+    "distance": 306.738
   },
   {
     "name": "Kepler-57 b",
@@ -68055,45 +68211,6 @@
     "distance": 271.701
   },
   {
-    "name": "Kepler-52 c",
-    "host_star": "Kepler-52",
-    "orbital_period": 16.3850021,
-    "radius": 1.84,
-    "mass": 45.4,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 286.7380152,
-    "dec": 49.9757383,
-    "distance": 321.542
-  },
-  {
-    "name": "Kepler-51 c",
-    "host_star": "Kepler-51",
-    "orbital_period": 85.312,
-    "radius": 9.0,
-    "mass": 4.0,
-    "equilibrium_temp": 439.0,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 296.4797624,
-    "dec": 49.9376486,
-    "distance": 783.831
-  },
-  {
-    "name": "Kepler-53 c",
-    "host_star": "Kepler-53",
-    "orbital_period": 38.5583038,
-    "radius": 3.17,
-    "mass": 36.0,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 290.4617926,
-    "dec": 40.5624966,
-    "distance": 1366.07
-  },
-  {
     "name": "WASP-77 A b",
     "host_star": "WASP-77 A",
     "orbital_period": 1.360029395,
@@ -68118,6 +68235,19 @@
     "ra": 295.7438485,
     "dec": -19.9497314,
     "distance": 189.469
+  },
+  {
+    "name": "Kepler-53 b",
+    "host_star": "Kepler-53",
+    "orbital_period": 18.6489525,
+    "radius": 2.89,
+    "mass": 111.0,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 290.4617926,
+    "dec": 40.5624966,
+    "distance": 1366.07
   },
   {
     "name": "Kepler-32 f",
@@ -68224,19 +68354,6 @@
     "distance": 914.221
   },
   {
-    "name": "Kepler-85 b",
-    "host_star": "Kepler-85",
-    "orbital_period": 8.3,
-    "radius": 1.778,
-    "mass": 1.84,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 290.9734395,
-    "dec": 45.2902761,
-    "distance": 765.025
-  },
-  {
     "name": "WASP-54 b",
     "host_star": "WASP-54",
     "orbital_period": 3.69364,
@@ -68274,6 +68391,32 @@
     "ra": 183.3660401,
     "dec": 23.055687,
     "distance": 321.084
+  },
+  {
+    "name": "HD 197037 b",
+    "host_star": "HD 197037",
+    "orbital_period": 1035.7,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Radial Velocity",
+    "ra": 309.8869681,
+    "dec": 42.247593,
+    "distance": 33.1944
+  },
+  {
+    "name": "omi UMa b",
+    "host_star": "omi UMa",
+    "orbital_period": 1569.81,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Radial Velocity",
+    "ra": 127.5649503,
+    "dec": 60.7177048,
+    "distance": 54.9149
   },
   {
     "name": "MOA-bin-1L b",
@@ -68406,32 +68549,6 @@
     "distance": 46.2107
   },
   {
-    "name": "HD 197037 b",
-    "host_star": "HD 197037",
-    "orbital_period": 1035.7,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Radial Velocity",
-    "ra": 309.8869681,
-    "dec": 42.247593,
-    "distance": 33.1944
-  },
-  {
-    "name": "omi UMa b",
-    "host_star": "omi UMa",
-    "orbital_period": 1569.81,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Radial Velocity",
-    "ra": 127.5649503,
-    "dec": 60.7177048,
-    "distance": 54.9149
-  },
-  {
     "name": "kap And b",
     "host_star": "kap And",
     "orbital_period": null,
@@ -68443,6 +68560,19 @@
     "ra": 355.1025974,
     "dec": 44.3338511,
     "distance": 50.0177
+  },
+  {
+    "name": "HAT-P-39 b",
+    "host_star": "HAT-P-39",
+    "orbital_period": 3.54387,
+    "radius": 17.609,
+    "mass": 190.372,
+    "equilibrium_temp": 1752.0,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 113.7582526,
+    "dec": 17.8300283,
+    "distance": 697.004
   },
   {
     "name": "Kepler-60 b",
@@ -68549,6 +68679,19 @@
     "distance": 1163.22
   },
   {
+    "name": "WASP-55 b",
+    "host_star": "WASP-55",
+    "orbital_period": 4.46563,
+    "radius": 14.90797,
+    "mass": 193.8763,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 203.7581951,
+    "dec": -17.5034961,
+    "distance": 297.462
+  },
+  {
     "name": "WASP-61 b",
     "host_star": "WASP-61",
     "orbital_period": 3.8559,
@@ -68599,19 +68742,6 @@
     "ra": 295.2978883,
     "dec": 46.9204303,
     "distance": 1025.02
-  },
-  {
-    "name": "HAT-P-39 b",
-    "host_star": "HAT-P-39",
-    "orbital_period": 3.54387,
-    "radius": 17.609,
-    "mass": 190.372,
-    "equilibrium_temp": 1752.0,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 113.7582526,
-    "dec": 17.8300283,
-    "distance": 697.004
   },
   {
     "name": "GJ 667 C b",
@@ -68679,19 +68809,6 @@
     "distance": 578.796
   },
   {
-    "name": "WASP-55 b",
-    "host_star": "WASP-55",
-    "orbital_period": 4.46563,
-    "radius": 14.90797,
-    "mass": 193.8763,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 203.7581951,
-    "dec": -17.5034961,
-    "distance": 297.462
-  },
-  {
     "name": "Kepler-65 d",
     "host_star": "Kepler-65",
     "orbital_period": 8.13123,
@@ -68718,6 +68835,32 @@
     "distance": 1033.16
   },
   {
+    "name": "Kepler-59 b",
+    "host_star": "Kepler-59",
+    "orbital_period": 11.8681707,
+    "radius": 1.1,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 287.0394932,
+    "dec": 46.6401677,
+    "distance": 1163.22
+  },
+  {
+    "name": "Kepler-82 b",
+    "host_star": "Kepler-82",
+    "orbital_period": 26.44,
+    "radius": 4.07,
+    "mass": 12.15,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 292.8733696,
+    "dec": 42.9661583,
+    "distance": 904.326
+  },
+  {
     "name": "WASP-72 b",
     "host_star": "WASP-72",
     "orbital_period": 2.21673,
@@ -68729,6 +68872,32 @@
     "ra": 41.0400779,
     "dec": -30.1690785,
     "distance": 434.754
+  },
+  {
+    "name": "HD 98649 b",
+    "host_star": "HD 98649",
+    "orbital_period": 5384.0,
+    "radius": null,
+    "mass": 3082.9355479,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Radial Velocity",
+    "ra": 170.2147665,
+    "dec": -23.2181063,
+    "distance": 42.1727
+  },
+  {
+    "name": "WASP-52 b",
+    "host_star": "WASP-52",
+    "orbital_period": 1.7497798,
+    "radius": 14.24,
+    "mass": 146.2,
+    "equilibrium_temp": 1315.0,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 348.4947931,
+    "dec": 8.7610793,
+    "distance": 174.818
   },
   {
     "name": "Kepler-36 c",
@@ -68835,30 +69004,43 @@
     "distance": 904.326
   },
   {
-    "name": "Kepler-59 b",
-    "host_star": "Kepler-59",
-    "orbital_period": 11.8681707,
-    "radius": 1.1,
-    "mass": null,
+    "name": "Kepler-52 c",
+    "host_star": "Kepler-52",
+    "orbital_period": 16.3850021,
+    "radius": 1.84,
+    "mass": 45.4,
     "equilibrium_temp": null,
     "discovery_year": 2012,
     "discovery_method": "Transit",
-    "ra": 287.0394932,
-    "dec": 46.6401677,
-    "distance": 1163.22
+    "ra": 286.7380152,
+    "dec": 49.9757383,
+    "distance": 321.542
   },
   {
-    "name": "Kepler-82 b",
-    "host_star": "Kepler-82",
-    "orbital_period": 26.44,
-    "radius": 4.07,
-    "mass": 12.15,
+    "name": "Kepler-51 c",
+    "host_star": "Kepler-51",
+    "orbital_period": 85.312,
+    "radius": 9.0,
+    "mass": 4.0,
+    "equilibrium_temp": 439.0,
+    "discovery_year": 2012,
+    "discovery_method": "Transit",
+    "ra": 296.4797624,
+    "dec": 49.9376486,
+    "distance": 783.831
+  },
+  {
+    "name": "Kepler-53 c",
+    "host_star": "Kepler-53",
+    "orbital_period": 38.5583038,
+    "radius": 3.17,
+    "mass": 36.0,
     "equilibrium_temp": null,
     "discovery_year": 2012,
     "discovery_method": "Transit",
-    "ra": 292.8733696,
-    "dec": 42.9661583,
-    "distance": 904.326
+    "ra": 290.4617926,
+    "dec": 40.5624966,
+    "distance": 1366.07
   },
   {
     "name": "Kepler-83 b",
@@ -68885,71 +69067,6 @@
     "ra": 300.5171067,
     "dec": 44.3815508,
     "distance": 1020.72
-  },
-  {
-    "name": "Kepler-57 c",
-    "host_star": "Kepler-57",
-    "orbital_period": 11.6,
-    "radius": 2.196,
-    "mass": 6.86,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 293.6413146,
-    "dec": 44.6570692,
-    "distance": 644.14
-  },
-  {
-    "name": "WASP-47 b",
-    "host_star": "WASP-47",
-    "orbital_period": 4.159151,
-    "radius": 12.86,
-    "mass": 374.0,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 331.203092,
-    "dec": -12.019067,
-    "distance": 264.78
-  },
-  {
-    "name": "HD 98649 b",
-    "host_star": "HD 98649",
-    "orbital_period": 5384.0,
-    "radius": null,
-    "mass": 3082.9355479,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Radial Velocity",
-    "ra": 170.2147665,
-    "dec": -23.2181063,
-    "distance": 42.1727
-  },
-  {
-    "name": "WASP-52 b",
-    "host_star": "WASP-52",
-    "orbital_period": 1.7497798,
-    "radius": 14.24,
-    "mass": 146.2,
-    "equilibrium_temp": 1315.0,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 348.4947931,
-    "dec": 8.7610793,
-    "distance": 174.818
-  },
-  {
-    "name": "Kepler-48 b",
-    "host_star": "Kepler-48",
-    "orbital_period": 4.778,
-    "radius": 1.88,
-    "mass": 3.94,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 299.1393094,
-    "dec": 40.948939,
-    "distance": 306.738
   },
   {
     "name": "Kepler-47 c",
@@ -69472,6 +69589,19 @@
     "distance": 68.1509
   },
   {
+    "name": "HD 4732 c",
+    "host_star": "HD 4732",
+    "orbital_period": 3184.2,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2012,
+    "discovery_method": "Radial Velocity",
+    "ra": 12.3085089,
+    "dec": -24.1369079,
+    "distance": 54.7841
+  },
+  {
     "name": "Kepler-84 c",
     "host_star": "Kepler-84",
     "orbital_period": 12.883,
@@ -69628,17 +69758,17 @@
     "distance": 765.025
   },
   {
-    "name": "HD 4732 c",
-    "host_star": "HD 4732",
-    "orbital_period": 3184.2,
-    "radius": null,
-    "mass": null,
+    "name": "Kepler-85 b",
+    "host_star": "Kepler-85",
+    "orbital_period": 8.3,
+    "radius": 1.778,
+    "mass": 1.84,
     "equilibrium_temp": null,
     "discovery_year": 2012,
-    "discovery_method": "Radial Velocity",
-    "ra": 12.3085089,
-    "dec": -24.1369079,
-    "distance": 54.7841
+    "discovery_method": "Transit",
+    "ra": 290.9734395,
+    "dec": 45.2902761,
+    "distance": 765.025
   },
   {
     "name": "Kepler-30 d",
@@ -69771,19 +69901,6 @@
     "distance": 46.8778
   },
   {
-    "name": "Kepler-53 b",
-    "host_star": "Kepler-53",
-    "orbital_period": 18.6489525,
-    "radius": 2.89,
-    "mass": 111.0,
-    "equilibrium_temp": null,
-    "discovery_year": 2012,
-    "discovery_method": "Transit",
-    "ra": 290.4617926,
-    "dec": 40.5624966,
-    "distance": 1366.07
-  },
-  {
     "name": "Kepler-26 c",
     "host_star": "Kepler-26",
     "orbital_period": 17.2559,
@@ -69914,6 +70031,19 @@
     "distance": 433.047
   },
   {
+    "name": "Kepler-32 c",
+    "host_star": "Kepler-32",
+    "orbital_period": 8.7522,
+    "radius": 2.0,
+    "mass": 158.9,
+    "equilibrium_temp": null,
+    "discovery_year": 2011,
+    "discovery_method": "Transit",
+    "ra": 297.8423073,
+    "dec": 46.5743595,
+    "distance": 323.847
+  },
+  {
     "name": "HD 99706 b",
     "host_star": "HD 99706",
     "orbital_period": 841.0,
@@ -69964,6 +70094,19 @@
     "ra": 294.496955,
     "dec": 46.6896733,
     "distance": 1819.17
+  },
+  {
+    "name": "HAT-P-36 b",
+    "host_star": "HAT-P-36",
+    "orbital_period": 1.32734683,
+    "radius": 14.313893,
+    "mass": 587.413406,
+    "equilibrium_temp": 1780.97,
+    "discovery_year": 2011,
+    "discovery_method": "Transit",
+    "ra": 188.2662048,
+    "dec": 44.9153672,
+    "distance": 294.419
   },
   {
     "name": "GJ 433 b",
@@ -70018,17 +70161,17 @@
     "distance": null
   },
   {
-    "name": "Kepler-32 c",
-    "host_star": "Kepler-32",
-    "orbital_period": 8.7522,
-    "radius": 2.0,
-    "mass": 158.9,
+    "name": "MOA-2009-BLG-266L b",
+    "host_star": "MOA-2009-BLG-266L",
+    "orbital_period": 2800.0,
+    "radius": null,
+    "mass": 10.4,
     "equilibrium_temp": null,
     "discovery_year": 2011,
-    "discovery_method": "Transit",
-    "ra": 297.8423073,
-    "dec": 46.5743595,
-    "distance": 323.847
+    "discovery_method": "Microlensing",
+    "ra": 267.008125,
+    "dec": -35.0054111,
+    "distance": 3040.0
   },
   {
     "name": "7 CMa b",
@@ -70083,17 +70226,17 @@
     "distance": 32.6034
   },
   {
-    "name": "HAT-P-36 b",
-    "host_star": "HAT-P-36",
-    "orbital_period": 1.32734683,
-    "radius": 14.313893,
-    "mass": 587.413406,
-    "equilibrium_temp": 1780.97,
+    "name": "Kepler-28 c",
+    "host_star": "Kepler-28",
+    "orbital_period": 8.99,
+    "radius": 1.857,
+    "mass": 2.06,
+    "equilibrium_temp": null,
     "discovery_year": 2011,
     "discovery_method": "Transit",
-    "ra": 188.2662048,
-    "dec": 44.9153672,
-    "distance": 294.419
+    "ra": 292.1370409,
+    "dec": 42.4294835,
+    "distance": 438.359
   },
   {
     "name": "WD 0806-661 b",
@@ -70146,19 +70289,6 @@
     "ra": 323.0966714,
     "dec": -20.957957,
     "distance": 28.7165
-  },
-  {
-    "name": "MOA-2009-BLG-266L b",
-    "host_star": "MOA-2009-BLG-266L",
-    "orbital_period": 2800.0,
-    "radius": null,
-    "mass": 10.4,
-    "equilibrium_temp": null,
-    "discovery_year": 2011,
-    "discovery_method": "Microlensing",
-    "ra": 267.008125,
-    "dec": -35.0054111,
-    "distance": 3040.0
   },
   {
     "name": "Kepler-31 b",
@@ -70224,19 +70354,6 @@
     "ra": 49.9997666,
     "dec": -43.0666533,
     "distance": 6.00278
-  },
-  {
-    "name": "Kepler-28 c",
-    "host_star": "Kepler-28",
-    "orbital_period": 8.99,
-    "radius": 1.857,
-    "mass": 2.06,
-    "equilibrium_temp": null,
-    "discovery_year": 2011,
-    "discovery_method": "Transit",
-    "ra": 292.1370409,
-    "dec": 42.4294835,
-    "distance": 438.359
   },
   {
     "name": "Qatar-2 b",
@@ -70330,6 +70447,19 @@
     "distance": 1057.41
   },
   {
+    "name": "HAT-P-29 b",
+    "host_star": "HAT-P-29",
+    "orbital_period": 5.72319,
+    "radius": 13.11453,
+    "mass": 279.6904,
+    "equilibrium_temp": null,
+    "discovery_year": 2011,
+    "discovery_method": "Transit",
+    "ra": 33.1310921,
+    "dec": 51.7787754,
+    "distance": 313.576
+  },
+  {
     "name": "WASP-48 b",
     "host_star": "WASP-48",
     "orbital_period": 2.14363,
@@ -70382,6 +70512,19 @@
     "distance": 38.662
   },
   {
+    "name": "Kepler-12 b",
+    "host_star": "Kepler-12",
+    "orbital_period": 4.4379629,
+    "radius": 19.660586,
+    "mass": 137.30256,
+    "equilibrium_temp": 1480.0,
+    "discovery_year": 2011,
+    "discovery_method": "Transit",
+    "ra": 286.2434458,
+    "dec": 50.0403671,
+    "distance": 881.386
+  },
+  {
     "name": "WASP-39 b",
     "host_star": "WASP-39",
     "orbital_period": 4.0552941,
@@ -70408,17 +70551,43 @@
     "distance": 390.594
   },
   {
-    "name": "HAT-P-29 b",
-    "host_star": "HAT-P-29",
-    "orbital_period": 5.72319,
-    "radius": 13.11453,
-    "mass": 279.6904,
+    "name": "Kepler-19 c",
+    "host_star": "Kepler-19",
+    "orbital_period": 28.731,
+    "radius": null,
+    "mass": 13.1,
     "equilibrium_temp": null,
     "discovery_year": 2011,
+    "discovery_method": "Transit Timing Variations",
+    "ra": 290.4209694,
+    "dec": 37.8516556,
+    "distance": 218.562
+  },
+  {
+    "name": "Kepler-19 b",
+    "host_star": "Kepler-19",
+    "orbital_period": 9.28699,
+    "radius": 2.209,
+    "mass": 6.1,
+    "equilibrium_temp": 851.0,
+    "discovery_year": 2011,
     "discovery_method": "Transit",
-    "ra": 33.1310921,
-    "dec": 51.7787754,
-    "distance": 313.576
+    "ra": 290.4209694,
+    "dec": 37.8516556,
+    "distance": 218.562
+  },
+  {
+    "name": "HIP 57274 b",
+    "host_star": "HIP 57274",
+    "orbital_period": 8.1352,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2011,
+    "discovery_method": "Radial Velocity",
+    "ra": 176.1705487,
+    "dec": 30.9576484,
+    "distance": 25.8618
   },
   {
     "name": "HD 96063 b",
@@ -70486,19 +70655,6 @@
     "distance": 1093.08
   },
   {
-    "name": "Kepler-12 b",
-    "host_star": "Kepler-12",
-    "orbital_period": 4.4379629,
-    "radius": 19.660586,
-    "mass": 137.30256,
-    "equilibrium_temp": 1480.0,
-    "discovery_year": 2011,
-    "discovery_method": "Transit",
-    "ra": 286.2434458,
-    "dec": 50.0403671,
-    "distance": 881.386
-  },
-  {
     "name": "Kepler-27 b",
     "host_star": "Kepler-27",
     "orbital_period": 15.3348,
@@ -70549,45 +70705,6 @@
     "ra": 290.4132621,
     "dec": 38.3437283,
     "distance": 1156.81
-  },
-  {
-    "name": "Kepler-19 c",
-    "host_star": "Kepler-19",
-    "orbital_period": 28.731,
-    "radius": null,
-    "mass": 13.1,
-    "equilibrium_temp": null,
-    "discovery_year": 2011,
-    "discovery_method": "Transit Timing Variations",
-    "ra": 290.4209694,
-    "dec": 37.8516556,
-    "distance": 218.562
-  },
-  {
-    "name": "Kepler-19 b",
-    "host_star": "Kepler-19",
-    "orbital_period": 9.28699,
-    "radius": 2.209,
-    "mass": 6.1,
-    "equilibrium_temp": 851.0,
-    "discovery_year": 2011,
-    "discovery_method": "Transit",
-    "ra": 290.4209694,
-    "dec": 37.8516556,
-    "distance": 218.562
-  },
-  {
-    "name": "HIP 57274 b",
-    "host_star": "HIP 57274",
-    "orbital_period": 8.1352,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2011,
-    "discovery_method": "Radial Velocity",
-    "ra": 176.1705487,
-    "dec": 30.9576484,
-    "distance": 25.8618
   },
   {
     "name": "Kepler-25 b",
@@ -71604,6 +71721,19 @@
     "distance": null
   },
   {
+    "name": "WASP-33 b",
+    "host_star": "WASP-33",
+    "orbital_period": 1.21987,
+    "radius": 17.855937,
+    "mass": 665.21819,
+    "equilibrium_temp": 2781.7,
+    "discovery_year": 2010,
+    "discovery_method": "Transit",
+    "ra": 36.7127375,
+    "dec": 37.5504441,
+    "distance": 121.944
+  },
+  {
     "name": "XO-4 b",
     "host_star": "XO-4",
     "orbital_period": 4.12508,
@@ -71615,6 +71745,19 @@
     "ra": 110.3880285,
     "dec": 58.2681094,
     "distance": 272.655
+  },
+  {
+    "name": "MOA-2009-BLG-319L b",
+    "host_star": "MOA-2009-BLG-319L",
+    "orbital_period": null,
+    "radius": null,
+    "mass": 67.3,
+    "equilibrium_temp": null,
+    "discovery_year": 2010,
+    "discovery_method": "Microlensing",
+    "ra": 271.742208,
+    "dec": -26.8196917,
+    "distance": 7050.0
   },
   {
     "name": "WASP-25 b",
@@ -71682,19 +71825,6 @@
     "distance": 122.362
   },
   {
-    "name": "WASP-33 b",
-    "host_star": "WASP-33",
-    "orbital_period": 1.21987,
-    "radius": 17.855937,
-    "mass": 665.21819,
-    "equilibrium_temp": 2781.7,
-    "discovery_year": 2010,
-    "discovery_method": "Transit",
-    "ra": 36.7127375,
-    "dec": 37.5504441,
-    "distance": 121.944
-  },
-  {
     "name": "HAT-P-20 b",
     "host_star": "HAT-P-20",
     "orbital_period": 2.875317,
@@ -71758,19 +71888,6 @@
     "ra": 296.8136883,
     "dec": 47.5265446,
     "distance": 2305.01
-  },
-  {
-    "name": "MOA-2009-BLG-319L b",
-    "host_star": "MOA-2009-BLG-319L",
-    "orbital_period": null,
-    "radius": null,
-    "mass": 67.3,
-    "equilibrium_temp": null,
-    "discovery_year": 2010,
-    "discovery_method": "Microlensing",
-    "ra": 271.742208,
-    "dec": -26.8196917,
-    "distance": 7050.0
   },
   {
     "name": "24 Sex c",
@@ -71851,6 +71968,19 @@
     "distance": 646.346
   },
   {
+    "name": "WASP-21 b",
+    "host_star": "WASP-21",
+    "orbital_period": 4.322482,
+    "radius": 11.99,
+    "mass": 95.345,
+    "equilibrium_temp": null,
+    "discovery_year": 2010,
+    "discovery_method": "Transit",
+    "ra": 347.4928024,
+    "dec": 18.3961597,
+    "distance": 258.426
+  },
+  {
     "name": "Kepler-11 e",
     "host_star": "Kepler-11",
     "orbital_period": 31.9996,
@@ -71914,19 +72044,6 @@
     "ra": 297.1150949,
     "dec": 41.9091092,
     "distance": 646.346
-  },
-  {
-    "name": "WASP-21 b",
-    "host_star": "WASP-21",
-    "orbital_period": 4.322482,
-    "radius": 11.99,
-    "mass": 95.345,
-    "equilibrium_temp": null,
-    "discovery_year": 2010,
-    "discovery_method": "Transit",
-    "ra": 347.4928024,
-    "dec": 18.3961597,
-    "distance": 258.426
   },
   {
     "name": "GJ 3634 b",
@@ -72800,6 +72917,32 @@
     "distance": 1148.93
   },
   {
+    "name": "HD 34445 b",
+    "host_star": "HD 34445",
+    "orbital_period": 1049.0,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2009,
+    "discovery_method": "Radial Velocity",
+    "ra": 79.4207483,
+    "dec": 7.3527156,
+    "distance": 46.0907
+  },
+  {
+    "name": "HD 4313 b",
+    "host_star": "HD 4313",
+    "orbital_period": 356.21,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2009,
+    "discovery_method": "Radial Velocity",
+    "ra": 11.4181301,
+    "dec": 7.8450492,
+    "distance": 136.308
+  },
+  {
     "name": "Kepler-4 b",
     "host_star": "Kepler-4",
     "orbital_period": 3.21346,
@@ -72826,30 +72969,43 @@
     "distance": 197.119
   },
   {
-    "name": "HD 181720 b",
-    "host_star": "HD 181720",
-    "orbital_period": 956.0,
+    "name": "HD 90156 b",
+    "host_star": "HD 90156",
+    "orbital_period": 49.77,
     "radius": null,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2009,
     "discovery_method": "Radial Velocity",
-    "ra": 290.7212224,
-    "dec": -32.9208401,
-    "distance": 60.2046
+    "ra": 155.9801144,
+    "dec": -29.645103,
+    "distance": 21.9496
   },
   {
-    "name": "HD 125612 d",
-    "host_star": "HD 125612",
-    "orbital_period": 2822.72698,
+    "name": "HD 215497 c",
+    "host_star": "HD 215497",
+    "orbital_period": 566.0,
     "radius": null,
-    "mass": 2281.37230545,
+    "mass": 111.23994245,
     "equilibrium_temp": null,
     "discovery_year": 2009,
     "discovery_method": "Radial Velocity",
-    "ra": 215.2227183,
-    "dec": -17.4818147,
-    "distance": 57.6207
+    "ra": 341.652714,
+    "dec": -56.5997984,
+    "distance": 40.5468
+  },
+  {
+    "name": "MOA-2008-BLG-310L b",
+    "host_star": "MOA-2008-BLG-310L",
+    "orbital_period": null,
+    "radius": null,
+    "mass": 23.4,
+    "equilibrium_temp": null,
+    "discovery_year": 2009,
+    "discovery_method": "Microlensing",
+    "ra": 268.560542,
+    "dec": -34.7780528,
+    "distance": 7700.0
   },
   {
     "name": "BD-08 2823 c",
@@ -72917,43 +73073,30 @@
     "distance": 125.321
   },
   {
-    "name": "HD 90156 b",
-    "host_star": "HD 90156",
-    "orbital_period": 49.77,
+    "name": "CoRoT-5 b",
+    "host_star": "CoRoT-5",
+    "orbital_period": 4.0378962,
+    "radius": 15.558,
+    "mass": 148.42,
+    "equilibrium_temp": 1438.0,
+    "discovery_year": 2009,
+    "discovery_method": "Transit",
+    "ra": 101.2772396,
+    "dec": 0.8152163,
+    "distance": 882.472
+  },
+  {
+    "name": "HD 136418 b",
+    "host_star": "HD 136418",
+    "orbital_period": 464.29999,
     "radius": null,
     "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2009,
     "discovery_method": "Radial Velocity",
-    "ra": 155.9801144,
-    "dec": -29.645103,
-    "distance": 21.9496
-  },
-  {
-    "name": "HD 215497 c",
-    "host_star": "HD 215497",
-    "orbital_period": 566.0,
-    "radius": null,
-    "mass": 111.23994245,
-    "equilibrium_temp": null,
-    "discovery_year": 2009,
-    "discovery_method": "Radial Velocity",
-    "ra": 341.652714,
-    "dec": -56.5997984,
-    "distance": 40.5468
-  },
-  {
-    "name": "MOA-2008-BLG-310L b",
-    "host_star": "MOA-2008-BLG-310L",
-    "orbital_period": null,
-    "radius": null,
-    "mass": 23.4,
-    "equilibrium_temp": null,
-    "discovery_year": 2009,
-    "discovery_method": "Microlensing",
-    "ra": 268.560542,
-    "dec": -34.7780528,
-    "distance": 7700.0
+    "ra": 229.7756438,
+    "dec": 41.732423,
+    "distance": 105.168
   },
   {
     "name": "HD 126614 b",
@@ -73008,32 +73151,6 @@
     "distance": 305.684
   },
   {
-    "name": "CoRoT-5 b",
-    "host_star": "CoRoT-5",
-    "orbital_period": 4.0378962,
-    "radius": 15.558,
-    "mass": 148.42,
-    "equilibrium_temp": 1438.0,
-    "discovery_year": 2009,
-    "discovery_method": "Transit",
-    "ra": 101.2772396,
-    "dec": 0.8152163,
-    "distance": 882.472
-  },
-  {
-    "name": "HD 136418 b",
-    "host_star": "HD 136418",
-    "orbital_period": 464.29999,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2009,
-    "discovery_method": "Radial Velocity",
-    "ra": 229.7756438,
-    "dec": 41.732423,
-    "distance": 105.168
-  },
-  {
     "name": "HAT-P-13 c",
     "host_star": "HAT-P-13",
     "orbital_period": 446.27,
@@ -73073,6 +73190,32 @@
     "distance": 587.039
   },
   {
+    "name": "HD 87883 b",
+    "host_star": "HD 87883",
+    "orbital_period": 3006.0,
+    "radius": null,
+    "mass": 2005.49724817,
+    "equilibrium_temp": null,
+    "discovery_year": 2009,
+    "discovery_method": "Radial Velocity",
+    "ra": 152.1794175,
+    "dec": 34.2419984,
+    "distance": 18.2912
+  },
+  {
+    "name": "HD 171238 b",
+    "host_star": "HD 171238",
+    "orbital_period": 1515.0,
+    "radius": null,
+    "mass": 2796.8899816,
+    "equilibrium_temp": null,
+    "discovery_year": 2009,
+    "discovery_method": "Radial Velocity",
+    "ra": 278.6818389,
+    "dec": -28.0727849,
+    "distance": 44.8113
+  },
+  {
     "name": "GJ 179 b",
     "host_star": "GJ 179",
     "orbital_period": 2288.0,
@@ -73110,32 +73253,6 @@
     "ra": 281.0725563,
     "dec": 6.6632062,
     "distance": 645.294
-  },
-  {
-    "name": "HD 87883 b",
-    "host_star": "HD 87883",
-    "orbital_period": 3006.0,
-    "radius": null,
-    "mass": 2005.49724817,
-    "equilibrium_temp": null,
-    "discovery_year": 2009,
-    "discovery_method": "Radial Velocity",
-    "ra": 152.1794175,
-    "dec": 34.2419984,
-    "distance": 18.2912
-  },
-  {
-    "name": "HD 171238 b",
-    "host_star": "HD 171238",
-    "orbital_period": 1515.0,
-    "radius": null,
-    "mass": 2796.8899816,
-    "equilibrium_temp": null,
-    "discovery_year": 2009,
-    "discovery_method": "Radial Velocity",
-    "ra": 278.6818389,
-    "dec": -28.0727849,
-    "distance": 44.8113
   },
   {
     "name": "HD 175167 b",
@@ -73944,6 +74061,32 @@
     "distance": 922.562
   },
   {
+    "name": "HD 181720 b",
+    "host_star": "HD 181720",
+    "orbital_period": 956.0,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2009,
+    "discovery_method": "Radial Velocity",
+    "ra": 290.7212224,
+    "dec": -32.9208401,
+    "distance": 60.2046
+  },
+  {
+    "name": "HD 125612 d",
+    "host_star": "HD 125612",
+    "orbital_period": 2822.72698,
+    "radius": null,
+    "mass": 2281.37230545,
+    "equilibrium_temp": null,
+    "discovery_year": 2009,
+    "discovery_method": "Radial Velocity",
+    "ra": 215.2227183,
+    "dec": -17.4818147,
+    "distance": 57.6207
+  },
+  {
     "name": "HD 40307 d",
     "host_star": "HD 40307",
     "orbital_period": 20.432,
@@ -73994,32 +74137,6 @@
     "ra": 140.1029654,
     "dec": 33.8823291,
     "distance": 227.537
-  },
-  {
-    "name": "HD 34445 b",
-    "host_star": "HD 34445",
-    "orbital_period": 1049.0,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2009,
-    "discovery_method": "Radial Velocity",
-    "ra": 79.4207483,
-    "dec": 7.3527156,
-    "distance": 46.0907
-  },
-  {
-    "name": "HD 4313 b",
-    "host_star": "HD 4313",
-    "orbital_period": 356.21,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2009,
-    "discovery_method": "Radial Velocity",
-    "ra": 11.4181301,
-    "dec": 7.8450492,
-    "distance": 136.308
   },
   {
     "name": "HD 139357 b",
@@ -74698,6 +74815,19 @@
     "distance": 68.5146
   },
   {
+    "name": "HD 60532 b",
+    "host_star": "HD 60532",
+    "orbital_period": 201.9,
+    "radius": null,
+    "mass": null,
+    "equilibrium_temp": null,
+    "discovery_year": 2008,
+    "discovery_method": "Radial Velocity",
+    "ra": 113.5130656,
+    "dec": -22.2958661,
+    "distance": 25.9716
+  },
+  {
     "name": "WASP-12 b",
     "host_star": "WASP-12",
     "orbital_period": 1.091418901,
@@ -74724,6 +74854,19 @@
     "distance": 341.079
   },
   {
+    "name": "CoRoT-4 b",
+    "host_star": "CoRoT-4",
+    "orbital_period": 9.20205,
+    "radius": 13.34,
+    "mass": 228.83,
+    "equilibrium_temp": 1074.0,
+    "discovery_year": 2008,
+    "discovery_method": "Transit",
+    "ra": 102.1946233,
+    "dec": -0.6727861,
+    "distance": 726.412
+  },
+  {
     "name": "HD 145377 b",
     "host_star": "HD 145377",
     "orbital_period": 103.95,
@@ -74735,19 +74878,6 @@
     "ra": 242.9019658,
     "dec": -27.0781199,
     "distance": 53.4884
-  },
-  {
-    "name": "HD 60532 b",
-    "host_star": "HD 60532",
-    "orbital_period": 201.9,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2008,
-    "discovery_method": "Radial Velocity",
-    "ra": 113.5130656,
-    "dec": -22.2958661,
-    "distance": 25.9716
   },
   {
     "name": "XO-5 b",
@@ -74774,19 +74904,6 @@
     "ra": 96.4105736,
     "dec": -31.4810037,
     "distance": 34.354
-  },
-  {
-    "name": "CoRoT-4 b",
-    "host_star": "CoRoT-4",
-    "orbital_period": 9.20205,
-    "radius": 13.34,
-    "mass": 228.83,
-    "equilibrium_temp": 1074.0,
-    "discovery_year": 2008,
-    "discovery_method": "Transit",
-    "ra": 102.1946233,
-    "dec": -0.6727861,
-    "distance": 726.412
   },
   {
     "name": "bet Pic b",
@@ -75270,6 +75387,19 @@
     "distance": 43.6197
   },
   {
+    "name": "GJ 581 c",
+    "host_star": "GJ 581",
+    "orbital_period": 12.9211,
+    "radius": null,
+    "mass": 6.81,
+    "equilibrium_temp": null,
+    "discovery_year": 2007,
+    "discovery_method": "Radial Velocity",
+    "ra": 229.8564725,
+    "dec": -7.7226935,
+    "distance": 6.2981
+  },
+  {
     "name": "55 Cnc f",
     "host_star": "55 Cnc",
     "orbital_period": 259.88,
@@ -75307,19 +75437,6 @@
     "ra": 332.9638643,
     "dec": 16.0404806,
     "distance": 54.1963
-  },
-  {
-    "name": "GJ 581 c",
-    "host_star": "GJ 581",
-    "orbital_period": 12.9211,
-    "radius": null,
-    "mass": 6.81,
-    "equilibrium_temp": null,
-    "discovery_year": 2007,
-    "discovery_method": "Radial Velocity",
-    "ra": 229.8564725,
-    "dec": -7.7226935,
-    "distance": 6.2981
   },
   {
     "name": "HAT-P-4 b",
@@ -76947,19 +77064,6 @@
     "distance": 57.603
   },
   {
-    "name": "HD 65216 b",
-    "host_star": "HD 65216",
-    "orbital_period": 577.6,
-    "radius": null,
-    "mass": null,
-    "equilibrium_temp": null,
-    "discovery_year": 2003,
-    "discovery_method": "Radial Velocity",
-    "ra": 118.4209646,
-    "dec": -63.6466892,
-    "distance": 35.1205
-  },
-  {
     "name": "gam Cep b",
     "host_star": "gam Cep",
     "orbital_period": 913.0,
@@ -76973,17 +77077,17 @@
     "distance": 14.1024
   },
   {
-    "name": "HD 82943 c",
-    "host_star": "HD 82943",
-    "orbital_period": 220.078,
+    "name": "HD 65216 b",
+    "host_star": "HD 65216",
+    "orbital_period": 577.6,
     "radius": null,
-    "mass": 622.603,
+    "mass": null,
     "equilibrium_temp": null,
     "discovery_year": 2003,
     "discovery_method": "Radial Velocity",
-    "ra": 143.7114034,
-    "dec": -12.1302976,
-    "distance": 27.5902
+    "ra": 118.4209646,
+    "dec": -63.6466892,
+    "distance": 35.1205
   },
   {
     "name": "HD 6434 b",
@@ -76997,6 +77101,19 @@
     "ra": 16.1663441,
     "dec": -39.4904909,
     "distance": 42.358
+  },
+  {
+    "name": "HD 82943 c",
+    "host_star": "HD 82943",
+    "orbital_period": 220.078,
+    "radius": null,
+    "mass": 622.603,
+    "equilibrium_temp": null,
+    "discovery_year": 2003,
+    "discovery_method": "Radial Velocity",
+    "ra": 143.7114034,
+    "dec": -12.1302976,
+    "distance": 27.5902
   },
   {
     "name": "HD 104985 b",

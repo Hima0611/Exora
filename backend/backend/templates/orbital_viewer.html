@@ -23,11 +23,11 @@
         position: fixed;
         top: 0;
         left: 0;
-        width: 95%;
+        width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 20px 40px;
+        padding:0px 20px ;
         background: rgba(10, 13, 31, 0.9);
         backdrop-filter: blur(10px);
         z-index: 100;
@@ -100,17 +100,24 @@
 
     <nav class="navbar">
       <div class="logoContainer">
-        <div class="logoCircle">
-          �
-        </div>
-        <div class="logoSlogan">Exora - Orbital Viewer</div>
+        <div class="logoCircle">🌌</div>
+        <div class="logoSlogan">Exora - Exploring Pathways Beyond</div>
       </div>
       <ul class="navLinks">
         <li><a href="http://localhost:5173/" class="nav-link">Home</a></li>
         <li><a href="/starmap" class="nav-link">Star Map</a></li>
-        <li><a href="/discovery-trends" class="nav-link">Discovery Trends</a></li>
+        <li>
+          <a href="/discovery-trends" class="nav-link"
+            >Discovery Trends</a>
+        </li>
         <li><a href="/orbital-viewer" class="nav-link active">Orbital Viewer</a></li>
         <li><a href="/planet-explorer" class="nav-link">Planet Explorer</a></li>
+        <li>
+          <a href="http://localhost:5173/radial-velocity" class="nav-link">RV Analysis</a>
+        </li>
+        <li>
+          <a href="/predict">AI Predict</a>
+        </li>
       </ul>
     </nav>
 
