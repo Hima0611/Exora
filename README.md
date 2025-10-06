@@ -98,6 +98,11 @@ Exora is a hybrid full-stack application combining a React frontend with a Flask
 │   ├── templates/           # Server-rendered HTML for complex visualizations
 │   └── data/                # JSON cache files for NASA data
 ```
+## Live Site
+
+https://exora-cwge.vercel.app/
+
+🚧 The RV Analysis feature is not working on the deployed site due to a deployment issue, though it functions correctly locally.
 
 ## Available Scripts
 
