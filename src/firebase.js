@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDVaXJC2BF9s70PZMD2CX0s210cj446APw",
+  apiKey: "YOUR_API_KEY",
   authDomain: "exorablog-601a4.firebaseapp.com",
   projectId: "exorablog-601a4",
   storageBucket: "exorablog-601a4.firebasestorage.app",
